@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting epochdates.java
+epochdates.java:
+     $Id: epochdates.java,v 1.93 2013-03-28 15:49:06-07 - - $
+javac -Xlint epochdates.java
+jar cfm epochdates Manifest epochdates.class
+chmod +x epochdates
+rm -f epochdates.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished epochdates.java

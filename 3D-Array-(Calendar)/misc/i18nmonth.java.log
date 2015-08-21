@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting i18nmonth.java
+i18nmonth.java:
+     $Id: i18nmonth.java,v 1.4 2013-04-11 14:51:27-07 - - $
+javac -Xlint i18nmonth.java
+jar cfm i18nmonth Manifest i18nmonth.class
+chmod +x i18nmonth
+rm -f i18nmonth.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished i18nmonth.java

@@ -1,0 +1,96 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.3
+date	2013.03.28.04.28.49;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.28.04.22.16;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.28.04.21.56;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@-
+@
+text
+@// $Id: calconstants.java,v 1.2 2013-03-27 21:22:16-07 - - $
+
+//
+// Printout Calendar constants.
+//
+
+import static java.lang.System.*;
+import java.util.Calendar;
+
+class calconstants {
+   public static void main (String[] args) {
+      out.printf ("DAY_OF_WEEK SUNDAY = %d%n", Calendar.SUNDAY);
+      out.printf ("DAY_OF_WEEK MONDAY = %d%n", Calendar.MONDAY);
+      out.printf ("DAY_OF_WEEK TUESDAY = %d%n", Calendar.TUESDAY);
+      out.printf ("DAY_OF_WEEK WEDNESDAY = %d%n", Calendar.WEDNESDAY);
+      out.printf ("DAY_OF_WEEK THURSDAY = %d%n", Calendar.THURSDAY);
+      out.printf ("DAY_OF_WEEK FRIDAY = %d%n", Calendar.FRIDAY);
+      out.printf ("DAY_OF_WEEK SATURDAY = %d%n", Calendar.SATURDAY);
+      out.printf ("MONTH JANUARY = %d%n", Calendar.JANUARY);
+      out.printf ("MONTH FEBRUARY = %d%n", Calendar.FEBRUARY);
+      out.printf ("MONTH MARCH = %d%n", Calendar.MARCH);
+      out.printf ("MONTH APRIL = %d%n", Calendar.APRIL);
+      out.printf ("MONTH MAY = %d%n", Calendar.MAY);
+      out.printf ("MONTH JUNE = %d%n", Calendar.JUNE);
+      out.printf ("MONTH JULY = %d%n", Calendar.JULY);
+      out.printf ("MONTH AUGUST = %d%n", Calendar.AUGUST);
+      out.printf ("MONTH SEPTEMBER = %d%n", Calendar.SEPTEMBER);
+      out.printf ("MONTH OCTOBER = %d%n", Calendar.OCTOBER);
+      out.printf ("MONTH NOVEMBER = %d%n", Calendar.NOVEMBER);
+      out.printf ("MONTH DECEMBER = %d%n", Calendar.DECEMBER);
+      out.printf ("MONTH UNDECIMBER = %d%n", Calendar.UNDECIMBER);
+   }
+}
+
+//TEST// ./calconstants >calconstants.out 2>&1
+//TEST// mkpspdf calconstants.ps calconstants.java* calconstants.out
+
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: calconstants.java,v 1.1 2013-03-27 21:21:56-07 - - $
+d34 4
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id$
+d8 1
+a8 1
+import java.util.GregorianCalendar;
+@

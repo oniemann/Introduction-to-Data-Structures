@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting printcalnames.java
+printcalnames.java:
+     $Id: printcalnames.java,v 1.13 2013-03-28 16:41:08-07 - - $
+javac -Xlint printcalnames.java
+jar cfm printcalnames Manifest printcalnames.class
+chmod +x printcalnames
+rm -f printcalnames.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished printcalnames.java

@@ -1,0 +1,43 @@
+#!/bin/bash
+# $Id: mk.tests,v 1.4 2013-04-03 21:02:23-07 - - $
+
+export PATH=$PATH:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin
+ulimit -f 16
+ulimit -t 256
+
+PROG=jcal
+
+function runtest {
+   test=$1
+   shift
+   echo $0: Running $PROG "$@"
+   $PROG "$@" >test.$test.out 2>test.$test.err
+   echo status = $? >test.$test.status
+   ls -goa test.$test.*
+}
+
+runtest mthxx                 # Month tests except February.
+runtest mth1012 12 2010       # Month tests except February.
+runtest mth1001  1 2010       # Month tests except February.
+
+runtest feb1900  2 1900       # February tests.
+runtest feb2000  2 2000       # February tests.
+runtest feb2008  2 2008       # February tests.
+runtest feb2010  2 2010       # February tests.
+
+runtest yr2010     2010       # Year tests.
+runtest yr1066     1066       # Year tests.
+
+runtest 1752feb  9 1752       # 1752 tests.
+runtest 1752yr     1752       # 1752 tests.
+
+runtest bad-5   -5            # Error bad argument tests.
+runtest bad10k  10000         # Error bad argument tests.
+runtest badrev  2010 12       # Error bad argument tests.
+runtest badarg  foo bar baz   # Error bad argument tests.
+
+runtest lang-en -en           # Foreign language tests.
+runtest lang-fr -fr    2010   # Foreign language tests.
+runtest lang-es -es  3 2010   # Foreign language tests.
+runtest lang-de -de  4 2010   # Foreign language tests.
+

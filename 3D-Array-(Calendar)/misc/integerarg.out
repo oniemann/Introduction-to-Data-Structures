@@ -1,0 +1,7 @@
+OK: -55: is the integer -55
+OK: 0777: is the integer 777
+NumberFormatException: 0x23: For input string: "0x23"
+NumberFormatException: 123foo: For input string: "123foo"
+NumberFormatException: hello: For input string: "hello"
+OK: 5563: is the integer 5563
+NumberFormatException: 9876543210: For input string: "9876543210"

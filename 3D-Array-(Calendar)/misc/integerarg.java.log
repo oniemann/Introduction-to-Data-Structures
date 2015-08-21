@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting integerarg.java
+integerarg.java:
+     $Id: integerarg.java,v 1.6 2013-03-28 16:57:36-07 - - $
+javac -Xlint integerarg.java
+jar cfm integerarg Manifest integerarg.class
+chmod +x integerarg
+rm -f integerarg.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished integerarg.java

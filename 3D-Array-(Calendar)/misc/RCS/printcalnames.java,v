@@ -1,0 +1,382 @@
+head	1.13;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.13
+date	2013.03.28.23.41.08;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.03.28.23.40.14;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.28.23.39.56;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.28.23.38.22;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.28.23.37.20;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.28.23.27.45;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.28.23.27.23;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.28.23.26.49;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.28.23.09.33;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.28.23.06.53;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.28.23.01.26;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.28.22.41.59;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2011.08.19.00.54.26;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@-
+@
+text
+@// $Id: printcalnames.java,v 1.12 2013-03-28 16:40:14-07 - - $
+//
+// NAME
+//    printcalnames - print out names of weekdays and months
+//
+// SYNOPSIS
+//    printcalnames [language [country [variant]]]
+//
+// DESCRIPTION
+//    Prints out the names of the days of the week and months of
+//    the year in the given language, country, and variant.  The
+//    months are printed out in full and the days both in full 
+//    and abbreviated, as needed for the assignment.
+//
+
+import java.util.*;
+import static java.lang.Math.*;
+import static java.lang.System.*;
+import static java.util.Calendar.*;
+
+class printcalnames {
+   static final int EXIT_FAILURE = 1;
+
+   static String prefix (String string, int length) {
+      return length > string.length ()
+           ? string
+           : string.substring (0, length);
+   }
+
+   static void printcalnames (Locale locale, String argstr) {
+      String language = locale.getDisplayName();
+      String foreign = locale.getDisplayName (locale);
+      GregorianCalendar cal = new GregorianCalendar (locale);
+      cal.set (MONTH, JANUARY);
+      cal.set (DAY_OF_MONTH, 1);
+      cal.add (DAY_OF_MONTH, (8 - cal.get (DAY_OF_WEEK)) % 7);
+
+      // Print out the days, in full and abbreviated.
+      do {
+         String dayname = String.format (locale, "%tA", cal);
+         out.printf (locale, "[%s] %s (%s): day %d = %s (%s)%n",
+                     argstr, language, foreign, cal.get (DAY_OF_WEEK),
+                     dayname, prefix (dayname, 2));
+         cal.add (DAY_OF_MONTH, 1);
+      }while (cal.get (DAY_OF_WEEK) != SUNDAY);
+
+      // Print out the months.
+      do {
+         String monthname = String.format (locale, "%tB", cal);
+         out.printf (locale, "[%s] %s (%s): month %2tm = %s (%s)%n",
+                     argstr, language, foreign, cal, monthname,
+                     prefix (monthname, 3));
+         cal.add (MONTH, 1);
+      }while (cal.get (MONTH) != JANUARY);
+   }
+
+
+   static String join (String[] args) {
+      String result = "";
+      for (String arg: args) result += "_" + arg;
+      return result.substring (result.length() == 0 ? 0 : 1);
+   }
+
+   public static void main (String[] args) {
+      Locale locale = null;
+      switch (args.length) {
+         case 0 : locale = Locale.getDefault();
+                  break;
+         case 1 : locale = new Locale(args[0]);
+                  break;
+         case 2 : locale = new Locale(args[0], args[1]);
+                  break;
+         case 3 : locale = new Locale(args[0], args[1], args[2]);
+                  break;
+         default: err.printf ("Usage: %s %s%n",
+                              "printcalnames",
+                              "[language [country [variant]]]");
+                  System.exit (EXIT_FAILURE);
+      }
+      printcalnames (locale, join (args));
+   }
+
+}
+
+//TEST// cp /dev/null printcalnames.out
+//TEST// for lang in '' da en es fr ga it nl no pt sv
+//TEST// do
+//TEST//    perl -e 'print "#" x 72, "\n"' >>printcalnames.out
+//TEST//    printcalnames $lang >>printcalnames.out
+//TEST// done
+//TEST// mkpspdf printcalnames.ps printcalnames.java* printcalnames.out*
+
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.11 2013-03-28 16:39:56-07 - - $
+d86 1
+a86 1
+//TEST// for lang in '' da en es fr ga it nl no pt fi sv is
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.10 2013-03-28 16:38:22-07 - - $
+d88 1
+a88 1
+//TEST//    perl -e 'print "x" x 72, "\n"' >>printcalnames.out
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.9 2013-03-28 16:37:20-07 - - $
+d88 1
+a88 1
+//TEST//    echo :::::::::::::::::::::::::::::::: >>printcalnames.out
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.8 2013-03-28 16:27:45-07 - - $
+d32 1
+d41 3
+a43 3
+         out.printf (locale, "[%s] %s: day %d = %s (%s)%n",
+                     argstr, language, cal.get (DAY_OF_WEEK), dayname,
+                     prefix (dayname, 2));
+d50 2
+a51 2
+         out.printf (locale, "[%s] %s: month %2tm = %s (%s)%n",
+                     argstr, language, cal, monthname,
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.7 2013-03-28 16:27:23-07 - - $
+d31 1
+a31 5
+      String language = locale.getDisplayLanguage();
+      String country = locale.getDisplayCountry();
+      String variant = locale.getDisplayVariant();
+      if (! country.equals("")) language += " (" + country + ")";
+      if (! variant.equals("")) language += " " + variant;
+a87 1
+//TEST//    echo printcalnames $lang >>printcalnames.out
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.6 2013-03-28 16:26:49-07 - - $
+d64 1
+a64 1
+      return result.substr (result.length() == 0 ? 0 : 1);
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.5 2013-03-28 16:09:33-07 - - $
+d61 1
+a61 1
+   String join (String[] args) {
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.4 2013-03-28 16:06:53-07 - - $
+d17 1
+d30 1
+a30 1
+   static void printcalnames (Locale locale) {
+d44 2
+a45 2
+         out.printf (locale, "%s: day %d = %s (%s)%n",
+                     language, cal.get (DAY_OF_WEEK), dayname,
+d53 2
+a54 2
+         out.printf (locale, "%s: month %2tm = %s (%s)%n",
+                     language, cal, monthname,
+d61 6
+d83 1
+a83 1
+      printcalnames (locale);
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.3 2013-03-28 16:01:26-07 - - $
+d82 1
+a82 1
+//TEST// for lang in '' da en es fr ga it nl no pt fi sv tr is
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.2 2013-03-28 15:41:59-07 - - $
+d81 7
+a87 5
+//TEST// ./printcalnames       >printcalnames.out 2>&1
+//TEST// ./printcalnames en    >printcalnames.out-en 2>&1
+//TEST// ./printcalnames fr    >printcalnames.out-fr 2>&1
+//TEST// ./printcalnames es    >printcalnames.out-es 2>&1
+//TEST// ./printcalnames de    >printcalnames.out-de 2>&1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.1 2011-08-18 17:54:26-07 - - $
+d80 8
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: printcalnames.java,v 1.3 2010-10-08 13:28:19-07 - - $
+d23 2
+a24 2
+   static String substr (String string, int begin, int end) {
+      return end > string.length ()
+d26 1
+a26 1
+           : string.substring (begin, end);
+d45 1
+a45 1
+                     substr (dayname, 0, 2));
+d54 1
+a54 1
+                     substr (monthname, 0, 3));
+d59 1
+@

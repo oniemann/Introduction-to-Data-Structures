@@ -1,0 +1,1568 @@
+%PDF-1.4
+5 0 obj
+<</Length 6 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/1)Tj
+/R12 14 Tf
+-273.85 -2.7 Td
+(airports-part.db)Tj
+-112.186 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(# $Id: airports-part.db,v 1.1 2013-01-31 16:55:20-08 - - $)]TJ
+12 TL
+T*[(2:)-600(# Shorter list of airport codes for debugging.)]TJ
+T*[(3:)-600(SAN:San Diego International/Lindbergh Field)]TJ
+T*[(4:)-600(LAX:Los Angeles International)]TJ
+T*[(5:)-600(BUR:Burbank/Glendale/Pasadena)]TJ
+T*[(6:)-600(LAS:Las Vegas McCarran International)]TJ
+T*[(7:)-600(ONT:Ontario \(CA\) International)]TJ
+T*[(8:)-600(RNO:Reno Cannon International)]TJ
+T*[(9:)-600(SJC:San Jose \(CA\) International)]TJ
+-6.6 -12 Td
+[(10:)-600(SBA:Santa Barbara Municipal)]TJ
+T*[(11:)-600(SFO:San Francisco International)]TJ
+T*[(12:)-600(SMF:Sacramento Metro)]TJ
+T*[(13:)-600(SNA:Santa Ana/Orange County/John Wayne)]TJ
+ET
+Q
+Q
+endstream
+endobj
+6 0 obj
+1257
+endobj
+19 0 obj
+<</Length 20 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/1)Tj
+/R12 14 Tf
+-292.708 -2.7 Td
+(airports-part.db.sorted)Tj
+-93.3281 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(# $Id: airports-part.db.sorted,v 1.1 2013-01-31 16:55:33-08 - - $)]TJ
+12 TL
+T*[(2:)-600(# Shorter list of airport codes for debugging.)]TJ
+T*[(3:)-600(BUR:Burbank/Glendale/Pasadena)]TJ
+T*[(4:)-600(LAS:Las Vegas McCarran International)]TJ
+T*[(5:)-600(LAX:Los Angeles International)]TJ
+T*[(6:)-600(ONT:Ontario \(CA\) International)]TJ
+T*[(7:)-600(RNO:Reno Cannon International)]TJ
+T*[(8:)-600(SAN:San Diego International/Lindbergh Field)]TJ
+T*[(9:)-600(SBA:Santa Barbara Municipal)]TJ
+-6.6 -12 Td
+[(10:)-600(SFO:San Francisco International)]TJ
+T*[(11:)-600(SJC:San Jose \(CA\) International)]TJ
+T*[(12:)-600(SMF:Sacramento Metro)]TJ
+T*[(13:)-600(SNA:Santa Ana/Orange County/John Wayne)]TJ
+ET
+Q
+Q
+endstream
+endobj
+20 0 obj
+1272
+endobj
+24 0 obj
+<</Length 25 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-272.688 -2.7 Td
+(airports-full.db)Tj
+-113.348 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(# $Id: airports-full.db,v 1.1 2013-01-31 16:55:20-08 - - $)]TJ
+12 TL
+T*[(2:)-600(# List of airport codes.)]TJ
+T*[(3:)-600(# Long list of airport codes.)]TJ
+T*[(4:)-600(JNU:Juneau International)]TJ
+T*[(5:)-600(DAY:Dayton James M. Cox International)]TJ
+T*[(6:)-600(BOS:Boston Logan International)]TJ
+T*[(7:)-600(BDL:Hartford/Springfield Bradley International)]TJ
+T*[(8:)-600(AIY:Atlantic City International)]TJ
+T*[(9:)-600(ABQ:Albuquerque International)]TJ
+-6.6 -12 Td
+[(10:)-600(ABE:Allentown-Bethlehem-Easton International)]TJ
+T*[(11:)-600(AGC:Pittsburgh/Allegheny County)]TJ
+T*[(12:)-600(ATL:Atlanta William B. Hartsfield International)]TJ
+T*[(13:)-600(ANC:Anchorage International)]TJ
+T*[(14:)-600(AUS:Austin Robert Mueller Municipal)]TJ
+T*[(15:)-600(AVL:Asheville \(NC\) Regional)]TJ
+T*[(16:)-600(BIL:Billings Logan International)]TJ
+T*[(17:)-600(BGR:Bangor International)]TJ
+T*[(18:)-600(BFI:Seattle Kings County International/Boeing Field)]TJ
+T*[(19:)-600(BHM:Birmingham Municipal)]TJ
+T*[(20:)-600(BKL:Cleveland Lakefront)]TJ
+T*[(21:)-600(BIS:Bismarck Municipal)]TJ
+T*[(22:)-600(BNA:Nashville Metro)]TJ
+T*[(23:)-600(BOI:Boise Air Terminal/Gowen Field)]TJ
+T*[(24:)-600(CHS:Charleston \(SC\) International)]TJ
+T*[(25:)-600(BUR:Burbank/Glendale/Pasadena)]TJ
+T*[(26:)-600(BTV:Burlington International)]TJ
+T*[(27:)-600(BTR:Baton Rouge)]TJ
+T*[(28:)-600(BUF:Buffalo International)]TJ
+T*[(29:)-600(CAE:Columbia \(SC\) Metropolitan)]TJ
+T*[(30:)-600(BWI:Baltimore-Washington International)]TJ
+T*[(31:)-600(CAK:Akron/Canton Regional)]TJ
+T*[(32:)-600(CGX:Chicago Merrill C. Meigs Field)]TJ
+T*[(33:)-600(CRM:Charleston \(WV\) Yeager)]TJ
+T*[(34:)-600(CLT:Charlotte/Douglas International)]TJ
+T*[(35:)-600(CLE:Cleveland-Hopkins International)]TJ
+T*[(36:)-600(CMH:Columbus \(OH\) International)]TJ
+T*[(37:)-600(CPR:Casper/Natrone County International)]TJ
+T*[(38:)-600(CVG:Cincinnati International)]TJ
+T*[(39:)-600(CRP:Corpus Christi International)]TJ
+T*[(40:)-600(CYS:Cheyenne)]TJ
+T*[(41:)-600(DAL:Dallas Love Field)]TJ
+T*[(42:)-600(GRR:Grand Rapids/Kent County International)]TJ
+T*[(43:)-600(EYW:Key West International)]TJ
+T*[(44:)-600(DFW:Dallas-Ft. Worth International)]TJ
+T*[(45:)-600(DEN:Denver Stapleton International)]TJ
+T*[(46:)-600(DCA:Washington National)]TJ
+T*[(47:)-600(DET:Detroit City)]TJ
+T*[(48:)-600(DTW:Detroit Metropolitan/Wayne County)]TJ
+T*[(49:)-600(DSM:Des Moines International)]TJ
+T*[(50:)-600(ELP:El Paso International)]TJ
+T*[(51:)-600(EWR:Newark International)]TJ
+T*[(52:)-600(FLL:Ft. Lauderdale-Hollywood International)]TJ
+T*[(53:)-600(FAR:Fargo Hector International)]TJ
+T*[(54:)-600(FAI:Fairbanks International)]TJ
+T*[(55:)-600(FAT:Fresno Air Terminal)]TJ
+T*[(56:)-600(FSD:Sioux Falls Regional)]TJ
+T*[(57:)-600(FOE:Topeka Forbes Field)]TJ
+T*[(58:)-600(FWA:Ft. Wayne Allen County)]TJ
+ET
+Q
+Q
+endstream
+endobj
+25 0 obj
+3375
+endobj
+29 0 obj
+<</Length 30 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(2)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-272.688 -2.7 Td
+(airports-full.db)Tj
+-113.348 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 63.8 718 Tm
+[(59:)-600(GEG:Spokane International)]TJ
+12 TL
+T*[(60:)-600(IAH:Houston Intercontinental)]TJ
+T*[(61:)-600(HOU:Houston William P. Hobby)]TJ
+T*[(62:)-600(HNL:Honolulu International)]TJ
+T*[(63:)-600(GSO:Greensboro-High Pt.-Winston Salem Regional)]TJ
+T*[(64:)-600(HOT:Hot Springs Memorial Field)]TJ
+T*[(65:)-600(HUF:Terre Haute Hulman Regional)]TJ
+T*[(66:)-600(HPN:White Plains/Westchester County)]TJ
+T*[(67:)-600(HVN:New Haven Tweed)]TJ
+T*[(68:)-600(IAD:Washington Dulles)]TJ
+T*[(69:)-600(ITH:Ithaca Tompkins County)]TJ
+T*[(70:)-600(ILG:Wilmington/New Castle County)]TJ
+T*[(71:)-600(ICT:Wichita Mid-Continent)]TJ
+T*[(72:)-600(IND:Indianapolis International)]TJ
+T*[(73:)-600(INT:Winston-Salem Smith Reynolds)]TJ
+T*[(74:)-600(JAN:Jackson Municipal/Thompson Field)]TJ
+T*[(75:)-600(ITO:Hilo General Lyman Field)]TJ
+T*[(76:)-600(JAX:Jacksonville \(FL\) International)]TJ
+T*[(77:)-600(JFK:New York John F. Kennedy International)]TJ
+T*[(78:)-600(PDX:Portland \(OR\) International)]TJ
+T*[(79:)-600(MIA:Miami International)]TJ
+T*[(80:)-600(LNK:Lincoln Municipal)]TJ
+T*[(81:)-600(LAX:Los Angeles International)]TJ
+T*[(82:)-600(LAN:Lansing Capital City)]TJ
+T*[(83:)-600(KOA:Kailua-Kona Keahole \(HI\))]TJ
+T*[(84:)-600(LAS:Las Vegas McCarran International)]TJ
+T*[(85:)-600(LGB:Long Beach Daugherty Field)]TJ
+T*[(86:)-600(LGA:New York La Guardia)]TJ
+T*[(87:)-600(LIH:Lihue \(HI\))]TJ
+T*[(88:)-600(LIT:Little Rock Regional)]TJ
+T*[(89:)-600(MDT:Harrisburg International)]TJ
+T*[(90:)-600(MCI:Kansas City International)]TJ
+T*[(91:)-600(MBS:Saginaw Tri-City)]TJ
+T*[(92:)-600(MCO:Orlando International)]TJ
+T*[(93:)-600(MEM:Memphis International)]TJ
+T*[(94:)-600(MDW:Chicago Midway)]TJ
+T*[(95:)-600(MGM:Montgomery Municipal/Dannelly Field)]TJ
+T*[(96:)-600(MHT:Manchester)]TJ
+T*[(97:)-600(OAJ:Jacksonville \(NC\) Albert J. Ellis)]TJ
+T*[(98:)-600(MOB:Mobile Municipal/Bates Field)]TJ
+T*[(99:)-600(MKE:Milwaukee General Mitchell International)]TJ
+-6.6 -12 Td
+[(100:)-600(MKC:Kansas City Downtown)]TJ
+T*[(101:)-600(MLI:Moline Quad City)]TJ
+T*[(102:)-600(MSO:Missoula County)]TJ
+T*[(103:)-600(MSN:Madison \(WI\) Dane County Regional)]TJ
+T*[(104:)-600(MSP:Minneapolis-St. Paul International)]TJ
+T*[(105:)-600(MSY:New Orleans International)]TJ
+T*[(106:)-600(OMA:Omaha Eppley Airfield)]TJ
+T*[(107:)-600(OGG:Kahului \(HI\))]TJ
+T*[(108:)-600(OAK:Oakland International)]TJ
+T*[(109:)-600(OKC:Oklahoma City Will Rogers World)]TJ
+T*[(110:)-600(OLM:Olympia \(WA\))]TJ
+T*[(111:)-600(ORD:Chicago-O'Hare International)]TJ
+T*[(112:)-600(ONT:Ontario \(CA\) International)]TJ
+T*[(113:)-600(ORF:Norfolk International)]TJ
+T*[(114:)-600(PBI:Palm Beach International)]TJ
+T*[(115:)-600(SDF:Louisville Standiford Field)]TJ
+T*[(116:)-600(RDU:Raleigh-Durham)]TJ
+ET
+Q
+Q
+endstream
+endobj
+30 0 obj
+3278
+endobj
+34 0 obj
+<</Length 35 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(3)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-272.688 -2.7 Td
+(airports-full.db)Tj
+-113.348 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(117:)-600(PIE:St. Petersburg/Clearwater)]TJ
+12 TL
+T*[(118:)-600(PHL:Philadelphia International)]TJ
+T*[(119:)-600(PHF:Newport News Patrick Henry International)]TJ
+T*[(120:)-600(PHX:Phoenix Sky Harbor International)]TJ
+T*[(121:)-600(PSP:Palm Springs Municipal)]TJ
+T*[(122:)-600(PIT:Pittsburgh International)]TJ
+T*[(123:)-600(PVD:Providence Theodore Francis Green State)]TJ
+T*[(124:)-600(PWM:Portland \(ME\) International Jetport)]TJ
+T*[(125:)-600(RSW:Ft. Meyers Southwest Florida Regional)]TJ
+T*[(126:)-600(RNO:Reno Cannon International)]TJ
+T*[(127:)-600(RIC:Richmond International/Byrd Field)]TJ
+T*[(128:)-600(ROC:Rochester International)]TJ
+T*[(129:)-600(SAT:San Antonio International)]TJ
+T*[(130:)-600(SAN:San Diego International/Lindbergh Field)]TJ
+T*[(131:)-600(SAV:Savannah International)]TJ
+T*[(132:)-600(SBA:Santa Barbara Municipal)]TJ
+T*[(133:)-600(STL:St. Louis/Lambert International)]TJ
+T*[(134:)-600(SJC:San Jose \(CA\) International)]TJ
+T*[(135:)-600(SFO:San Francisco International)]TJ
+T*[(136:)-600(SEA:Seattle-Tacoma International)]TJ
+T*[(137:)-600(SGF:Springfield \(MO\) Regional)]TJ
+T*[(138:)-600(SMF:Sacramento Metro)]TJ
+T*[(139:)-600(SLC:Salt Lake City International)]TJ
+T*[(140:)-600(SNA:Santa Ana/Orange County/John Wayne)]TJ
+T*[(141:)-600(SPS:Wichita Falls)]TJ
+T*[(142:)-600(TUL:Tulsa International)]TJ
+T*[(143:)-600(SYR:Syracuse Hancock International)]TJ
+T*[(144:)-600(SUX:Sioux City International)]TJ
+T*[(145:)-600(TOL:Toledo Express)]TJ
+T*[(146:)-600(TPA:Tampa International)]TJ
+T*[(147:)-600(TYS:Knoxville McGhee Tyson)]TJ
+T*[(148:)-600(TUS:Tucson International)]TJ
+T*[(149:)-600(UCA:Utica/Oneida County)]TJ
+T*[(150:)-600(YVR:Vancouver International)]TJ
+ET
+Q
+Q
+endstream
+endobj
+35 0 obj
+2249
+endobj
+39 0 obj
+<</Length 40 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-291.546 -2.7 Td
+(airports-full.db.sorted)Tj
+-94.4902 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(# $Id: airports-full.db.sorted,v 1.1 2013-01-31 16:55:33-08 - - $)]TJ
+12 TL
+T*[(2:)-600(# List of airport codes.)]TJ
+T*[(3:)-600(# Long list of airport codes.)]TJ
+T*[(4:)-600(ABE:Allentown-Bethlehem-Easton International)]TJ
+T*[(5:)-600(ABQ:Albuquerque International)]TJ
+T*[(6:)-600(AGC:Pittsburgh/Allegheny County)]TJ
+T*[(7:)-600(AIY:Atlantic City International)]TJ
+T*[(8:)-600(ANC:Anchorage International)]TJ
+T*[(9:)-600(ATL:Atlanta William B. Hartsfield International)]TJ
+-6.6 -12 Td
+[(10:)-600(AUS:Austin Robert Mueller Municipal)]TJ
+T*[(11:)-600(AVL:Asheville \(NC\) Regional)]TJ
+T*[(12:)-600(BDL:Hartford/Springfield Bradley International)]TJ
+T*[(13:)-600(BFI:Seattle Kings County International/Boeing Field)]TJ
+T*[(14:)-600(BGR:Bangor International)]TJ
+T*[(15:)-600(BHM:Birmingham Municipal)]TJ
+T*[(16:)-600(BIL:Billings Logan International)]TJ
+T*[(17:)-600(BIS:Bismarck Municipal)]TJ
+T*[(18:)-600(BKL:Cleveland Lakefront)]TJ
+T*[(19:)-600(BNA:Nashville Metro)]TJ
+T*[(20:)-600(BOI:Boise Air Terminal/Gowen Field)]TJ
+T*[(21:)-600(BOS:Boston Logan International)]TJ
+T*[(22:)-600(BTR:Baton Rouge)]TJ
+T*[(23:)-600(BTV:Burlington International)]TJ
+T*[(24:)-600(BUF:Buffalo International)]TJ
+T*[(25:)-600(BUR:Burbank/Glendale/Pasadena)]TJ
+T*[(26:)-600(BWI:Baltimore-Washington International)]TJ
+T*[(27:)-600(CAE:Columbia \(SC\) Metropolitan)]TJ
+T*[(28:)-600(CAK:Akron/Canton Regional)]TJ
+T*[(29:)-600(CGX:Chicago Merrill C. Meigs Field)]TJ
+T*[(30:)-600(CHS:Charleston \(SC\) International)]TJ
+T*[(31:)-600(CLE:Cleveland-Hopkins International)]TJ
+T*[(32:)-600(CLT:Charlotte/Douglas International)]TJ
+T*[(33:)-600(CMH:Columbus \(OH\) International)]TJ
+T*[(34:)-600(CPR:Casper/Natrone County International)]TJ
+T*[(35:)-600(CRM:Charleston \(WV\) Yeager)]TJ
+T*[(36:)-600(CRP:Corpus Christi International)]TJ
+T*[(37:)-600(CVG:Cincinnati International)]TJ
+T*[(38:)-600(CYS:Cheyenne)]TJ
+T*[(39:)-600(DAL:Dallas Love Field)]TJ
+T*[(40:)-600(DAY:Dayton James M. Cox International)]TJ
+T*[(41:)-600(DCA:Washington National)]TJ
+T*[(42:)-600(DEN:Denver Stapleton International)]TJ
+T*[(43:)-600(DET:Detroit City)]TJ
+T*[(44:)-600(DFW:Dallas-Ft. Worth International)]TJ
+T*[(45:)-600(DSM:Des Moines International)]TJ
+T*[(46:)-600(DTW:Detroit Metropolitan/Wayne County)]TJ
+T*[(47:)-600(ELP:El Paso International)]TJ
+T*[(48:)-600(EWR:Newark International)]TJ
+T*[(49:)-600(EYW:Key West International)]TJ
+T*[(50:)-600(FAI:Fairbanks International)]TJ
+T*[(51:)-600(FAR:Fargo Hector International)]TJ
+T*[(52:)-600(FAT:Fresno Air Terminal)]TJ
+T*[(53:)-600(FLL:Ft. Lauderdale-Hollywood International)]TJ
+T*[(54:)-600(FOE:Topeka Forbes Field)]TJ
+T*[(55:)-600(FSD:Sioux Falls Regional)]TJ
+T*[(56:)-600(FWA:Ft. Wayne Allen County)]TJ
+T*[(57:)-600(GEG:Spokane International)]TJ
+T*[(58:)-600(GRR:Grand Rapids/Kent County International)]TJ
+ET
+Q
+Q
+endstream
+endobj
+40 0 obj
+3390
+endobj
+44 0 obj
+<</Length 45 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(2)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-291.546 -2.7 Td
+(airports-full.db.sorted)Tj
+-94.4902 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 63.8 718 Tm
+[(59:)-600(GSO:Greensboro-High Pt.-Winston Salem Regional)]TJ
+12 TL
+T*[(60:)-600(HNL:Honolulu International)]TJ
+T*[(61:)-600(HOT:Hot Springs Memorial Field)]TJ
+T*[(62:)-600(HOU:Houston William P. Hobby)]TJ
+T*[(63:)-600(HPN:White Plains/Westchester County)]TJ
+T*[(64:)-600(HUF:Terre Haute Hulman Regional)]TJ
+T*[(65:)-600(HVN:New Haven Tweed)]TJ
+T*[(66:)-600(IAD:Washington Dulles)]TJ
+T*[(67:)-600(IAH:Houston Intercontinental)]TJ
+T*[(68:)-600(ICT:Wichita Mid-Continent)]TJ
+T*[(69:)-600(ILG:Wilmington/New Castle County)]TJ
+T*[(70:)-600(IND:Indianapolis International)]TJ
+T*[(71:)-600(INT:Winston-Salem Smith Reynolds)]TJ
+T*[(72:)-600(ITH:Ithaca Tompkins County)]TJ
+T*[(73:)-600(ITO:Hilo General Lyman Field)]TJ
+T*[(74:)-600(JAN:Jackson Municipal/Thompson Field)]TJ
+T*[(75:)-600(JAX:Jacksonville \(FL\) International)]TJ
+T*[(76:)-600(JFK:New York John F. Kennedy International)]TJ
+T*[(77:)-600(JNU:Juneau International)]TJ
+T*[(78:)-600(KOA:Kailua-Kona Keahole \(HI\))]TJ
+T*[(79:)-600(LAN:Lansing Capital City)]TJ
+T*[(80:)-600(LAS:Las Vegas McCarran International)]TJ
+T*[(81:)-600(LAX:Los Angeles International)]TJ
+T*[(82:)-600(LGA:New York La Guardia)]TJ
+T*[(83:)-600(LGB:Long Beach Daugherty Field)]TJ
+T*[(84:)-600(LIH:Lihue \(HI\))]TJ
+T*[(85:)-600(LIT:Little Rock Regional)]TJ
+T*[(86:)-600(LNK:Lincoln Municipal)]TJ
+T*[(87:)-600(MBS:Saginaw Tri-City)]TJ
+T*[(88:)-600(MCI:Kansas City International)]TJ
+T*[(89:)-600(MCO:Orlando International)]TJ
+T*[(90:)-600(MDT:Harrisburg International)]TJ
+T*[(91:)-600(MDW:Chicago Midway)]TJ
+T*[(92:)-600(MEM:Memphis International)]TJ
+T*[(93:)-600(MGM:Montgomery Municipal/Dannelly Field)]TJ
+T*[(94:)-600(MHT:Manchester)]TJ
+T*[(95:)-600(MIA:Miami International)]TJ
+T*[(96:)-600(MKC:Kansas City Downtown)]TJ
+T*[(97:)-600(MKE:Milwaukee General Mitchell International)]TJ
+T*[(98:)-600(MLI:Moline Quad City)]TJ
+T*[(99:)-600(MOB:Mobile Municipal/Bates Field)]TJ
+-6.6 -12 Td
+[(100:)-600(MSN:Madison \(WI\) Dane County Regional)]TJ
+T*[(101:)-600(MSO:Missoula County)]TJ
+T*[(102:)-600(MSP:Minneapolis-St. Paul International)]TJ
+T*[(103:)-600(MSY:New Orleans International)]TJ
+T*[(104:)-600(OAJ:Jacksonville \(NC\) Albert J. Ellis)]TJ
+T*[(105:)-600(OAK:Oakland International)]TJ
+T*[(106:)-600(OGG:Kahului \(HI\))]TJ
+T*[(107:)-600(OKC:Oklahoma City Will Rogers World)]TJ
+T*[(108:)-600(OLM:Olympia \(WA\))]TJ
+T*[(109:)-600(OMA:Omaha Eppley Airfield)]TJ
+T*[(110:)-600(ONT:Ontario \(CA\) International)]TJ
+T*[(111:)-600(ORD:Chicago-O'Hare International)]TJ
+T*[(112:)-600(ORF:Norfolk International)]TJ
+T*[(113:)-600(PBI:Palm Beach International)]TJ
+T*[(114:)-600(PDX:Portland \(OR\) International)]TJ
+T*[(115:)-600(PHF:Newport News Patrick Henry International)]TJ
+T*[(116:)-600(PHL:Philadelphia International)]TJ
+ET
+Q
+Q
+endstream
+endobj
+45 0 obj
+3309
+endobj
+49 0 obj
+<</Length 50 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:26:19)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(3)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/3)Tj
+/R12 14 Tf
+-291.546 -2.7 Td
+(airports-full.db.sorted)Tj
+-94.4902 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(117:)-600(PHX:Phoenix Sky Harbor International)]TJ
+12 TL
+T*[(118:)-600(PIE:St. Petersburg/Clearwater)]TJ
+T*[(119:)-600(PIT:Pittsburgh International)]TJ
+T*[(120:)-600(PSP:Palm Springs Municipal)]TJ
+T*[(121:)-600(PVD:Providence Theodore Francis Green State)]TJ
+T*[(122:)-600(PWM:Portland \(ME\) International Jetport)]TJ
+T*[(123:)-600(RDU:Raleigh-Durham)]TJ
+T*[(124:)-600(RIC:Richmond International/Byrd Field)]TJ
+T*[(125:)-600(RNO:Reno Cannon International)]TJ
+T*[(126:)-600(ROC:Rochester International)]TJ
+T*[(127:)-600(RSW:Ft. Meyers Southwest Florida Regional)]TJ
+T*[(128:)-600(SAN:San Diego International/Lindbergh Field)]TJ
+T*[(129:)-600(SAT:San Antonio International)]TJ
+T*[(130:)-600(SAV:Savannah International)]TJ
+T*[(131:)-600(SBA:Santa Barbara Municipal)]TJ
+T*[(132:)-600(SDF:Louisville Standiford Field)]TJ
+T*[(133:)-600(SEA:Seattle-Tacoma International)]TJ
+T*[(134:)-600(SFO:San Francisco International)]TJ
+T*[(135:)-600(SGF:Springfield \(MO\) Regional)]TJ
+T*[(136:)-600(SJC:San Jose \(CA\) International)]TJ
+T*[(137:)-600(SLC:Salt Lake City International)]TJ
+T*[(138:)-600(SMF:Sacramento Metro)]TJ
+T*[(139:)-600(SNA:Santa Ana/Orange County/John Wayne)]TJ
+T*[(140:)-600(SPS:Wichita Falls)]TJ
+T*[(141:)-600(STL:St. Louis/Lambert International)]TJ
+T*[(142:)-600(SUX:Sioux City International)]TJ
+T*[(143:)-600(SYR:Syracuse Hancock International)]TJ
+T*[(144:)-600(TOL:Toledo Express)]TJ
+T*[(145:)-600(TPA:Tampa International)]TJ
+T*[(146:)-600(TUL:Tulsa International)]TJ
+T*[(147:)-600(TUS:Tucson International)]TJ
+T*[(148:)-600(TYS:Knoxville McGhee Tyson)]TJ
+T*[(149:)-600(UCA:Utica/Oneida County)]TJ
+T*[(150:)-600(YVR:Vancouver International)]TJ
+ET
+Q
+Q
+endstream
+endobj
+50 0 obj
+2231
+endobj
+54 0 obj
+<</Length 55 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(01/30/15)Tj
+-0.659766 -12.8 Td
+(15:24:43)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 518.488 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/1)Tj
+/R12 14 Tf
+-274.243 -2.7 Td
+(cooksortdb.perl)Tj
+-111.793 18 Td
+($cmps012b-wm/Assignments/asg3j-airport-bstree/data/)Tj
+ET
+Q
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(#!/usr/bin/perl)]TJ
+12 TL
+T*[(2:)-600(# $Id: cooksortdb.perl,v 1.1 2013-01-31 16:55:20-08 - - $)]TJ
+T*[(3:)-600(#)]TJ
+T*[(4:)-600(# Cook the database order so that linear insertion produces a)]TJ
+T*[(5:)-600(# balanced tree.  Balancing a BST is not included in this course.)]TJ
+T*[(6:)-600(#)]TJ
+(7:)'
+T*[(8:)-600(use strict;)]TJ
+T*[(9:)-600(use warnings;)]TJ
+-6.6 -12 Td
+[(10:)-600(system "cid $0";)]TJ
+(11:)'
+T*[(12:)-600($0 =~ s|^\(.*/\)?\([^/]+\)/*$|$2|;)]TJ
+T*[(13:)-600(my $EXITCODE = 0;)]TJ
+T*[(14:)-600(END {exit $? || $EXITCODE})]TJ
+T*[(15:)-600(sub note\(@\) {print STDERR "$0: @_"})]TJ
+T*[(16:)-600($SIG{'__WARN__'} = sub {note @_; $EXITCODE = 1};)]TJ
+T*[(17:)-600($SIG{'__DIE__'} = sub {warn @_; exit};)]TJ
+(18:)'
+T*[(19:)-600(sub cooksort \($$$$\);)]TJ
+T*[(20:)-600(sub cooksort \($$$$\) {)]TJ
+T*[(21:)-600(   my \($outfile, $lo, $hi, $arrayref\) = @_;)]TJ
+T*[(22:)-600(   return unless $lo <= $hi;)]TJ
+T*[(23:)-600(   my $mid = int \(\($lo + $hi\) / 2\);)]TJ
+T*[(24:)-600(   print $outfile $arrayref->[$mid];)]TJ
+T*[(25:)-600(   cooksort $outfile, $lo, $mid - 1, $arrayref;)]TJ
+T*[(26:)-600(   cooksort $outfile, $mid + 1, $hi, $arrayref;)]TJ
+T*[(27:)-600(})]TJ
+(28:)'
+T*[(29:)-600(sub openfile \($\) {)]TJ
+T*[(30:)-600(   my \($filespec\) = @_;)]TJ
+T*[(31:)-600(   open my $file, $filespec or do {warn "$filespec: $!"; return undef};)]TJ
+T*[(32:)-600(   print "$0: open $filespec: OK\\n";)]TJ
+T*[(33:)-600(   return $file;)]TJ
+T*[(34:)-600(})]TJ
+(35:)'
+T*[(36:)-600(for my $infilename \(<*.db.sorted>\) {)]TJ
+T*[(37:)-600(   system "cid $infilename";)]TJ
+T*[(38:)-600(   my $outfilename = $infilename;)]TJ
+T*[(39:)-600(   $outfilename =~ s/\\.sorted$//;)]TJ
+T*[(40:)-600(   system "cid + $infilename";)]TJ
+T*[(41:)-600(   my $infile = openfile "<$infilename";)]TJ
+T*[(42:)-600(   my $outfile = openfile ">$outfilename";)]TJ
+(43:)'
+T*[(44:)-600(   if \($infile && $outfile\) {)]TJ
+T*[(45:)-600(      my @airports;)]TJ
+T*[(46:)-600(      while \(defined \(my $line = <$infile>\)\) {)]TJ
+T*[(47:)-600(         if \($line =~ m/^\\s*\(#|$\)/\) {print $outfile $line})]TJ
+T*[(48:)-600(                               else {push @airports, $line})]TJ
+T*[(49:)-600(      })]TJ
+T*[(50:)-600(      @airports = sort @airports;)]TJ
+T*[(51:)-600(      cooksort $outfile, 0, $#airports, \\@airports;)]TJ
+T*[(52:)-600(   })]TJ
+(53:)'
+T*[(54:)-600(   close $infile if $infile;)]TJ
+T*[(55:)-600(   close $outfile if $outfile;)]TJ
+T*[(56:)-600(})]TJ
+ET
+Q
+Q
+endstream
+endobj
+55 0 obj
+3023
+endobj
+4 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 16 0 R
+/Font 17 0 R
+>>
+/Contents 5 0 R
+>>
+endobj
+18 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 21 0 R
+/Font 22 0 R
+>>
+/Contents 19 0 R
+>>
+endobj
+23 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 26 0 R
+/Font 27 0 R
+>>
+/Contents 24 0 R
+>>
+endobj
+28 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 31 0 R
+/Font 32 0 R
+>>
+/Contents 29 0 R
+>>
+endobj
+33 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 36 0 R
+/Font 37 0 R
+>>
+/Contents 34 0 R
+>>
+endobj
+38 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 41 0 R
+/Font 42 0 R
+>>
+/Contents 39 0 R
+>>
+endobj
+43 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 46 0 R
+/Font 47 0 R
+>>
+/Contents 44 0 R
+>>
+endobj
+48 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 51 0 R
+/Font 52 0 R
+>>
+/Contents 49 0 R
+>>
+endobj
+53 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 56 0 R
+/Font 57 0 R
+>>
+/Contents 54 0 R
+>>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [
+4 0 R
+18 0 R
+23 0 R
+28 0 R
+33 0 R
+38 0 R
+43 0 R
+48 0 R
+53 0 R
+] /Count 9
+>>
+endobj
+1 0 obj
+<</Type /Catalog /Pages 3 0 R
+/Metadata 63 0 R
+>>
+endobj
+7 0 obj
+<</Type/ExtGState
+/OPM 1>>endobj
+16 0 obj
+<</R7
+7 0 R>>
+endobj
+17 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+21 0 obj
+<</R7
+7 0 R>>
+endobj
+22 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+26 0 obj
+<</R7
+7 0 R>>
+endobj
+27 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+31 0 obj
+<</R7
+7 0 R>>
+endobj
+32 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+36 0 obj
+<</R7
+7 0 R>>
+endobj
+37 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+41 0 obj
+<</R7
+7 0 R>>
+endobj
+42 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+46 0 obj
+<</R7
+7 0 R>>
+endobj
+47 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+51 0 obj
+<</R7
+7 0 R>>
+endobj
+52 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+56 0 obj
+<</R7
+7 0 R>>
+endobj
+57 0 obj
+<</R12
+12 0 R/R14
+14 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+12 0 obj
+<</BaseFont/CBPGAR+Times-Roman/FontDescriptor 13 0 R/Type/Font
+/FirstChar 36/LastChar 119/Widths[ 500 0 0 0 0 0 0 0 0 333 250 278
+500 500 500 500 0 0 0 0 0 0 0 0 0 0 0 0
+0 722 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 444 500 444 500 444 333 500 0 278 278 500 278 778 500 500
+500 0 333 389 278 500 0 722]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+14 0 obj
+<</BaseFont/ERZIJW+Courier-Bold/FontDescriptor 15 0 R/Type/Font
+/FirstChar 32/LastChar 126/Widths[
+600 600 600 600 600 0 600 600 600 600 600 600 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 0 600 600 600 600]
+/Encoding 62 0 R/Subtype/Type1>>
+endobj
+62 0 obj
+<</Type/Encoding/BaseEncoding/WinAnsiEncoding/Differences[
+39/quoteright
+126/tilde]>>
+endobj
+10 0 obj
+<</BaseFont/WLHAMG+Helvetica-Bold/FontDescriptor 11 0 R/Type/Font
+/FirstChar 47/LastChar 51/Widths[ 278
+0 556 556 556]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+8 0 obj
+<</BaseFont/QVZLHI+Times-Bold/FontDescriptor 9 0 R/Type/Font
+/FirstChar 47/LastChar 58/Widths[ 278
+500 500 500 500 500 500 500 0 0 500 333]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+13 0 obj
+<</Type/FontDescriptor/FontName/CBPGAR+Times-Roman/FontBBox[-70 -218 775 727]/Flags 32
+/Ascent 727
+/CapHeight 674
+/Descent -218
+/ItalicAngle 0
+/StemV 116
+/MissingWidth 500
+/XHeight 460
+/CharSet(/A/a/b/c/d/dollar/e/f/g/hyphen/i/j/k/l/m/n/o/one/p/period/r/s/slash/t/three/two/u/w/zero)/FontFile3 58 0 R>>
+endobj
+58 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 4146>>stream
+GarVOGuR^FRX[%;pUXcJWK]fo4PH74WnIoaWYW1R/K:%V-8$F1+9n&1!OAq_OH:3oH:`W<"MtcW
+99<.V<,eO'd8Fb$C%pmZHb-7/Xe+s\l'_E.c^?RBp<8phB$SN?aienc\)#s9qgC">BE>qYZ'N="
+AWjq'YmOXF4Rg"D>03Mq=?rutn"Sq8Xn0)n<J7<A]bE&,UEr3sD_)n>_;Dn_]9csL.g2?\.^A_9
+.?p8&Bi]CSf\>r$M=7NO]C(1Kfb>;A)0T!N5F/OEP!WlK4DYJuUKE\W:s('SU0i[E0rOX6UrU?X
+nheMU_Q`Zk$qWqH[=n078T*0uBqA;'<"t,$*VE1[k4%k7l^=sNpISpd<J=j71Cr6<L^XrN`CdF8
+H0GM4f0U%eWZ?,6ZCnEmV+s7$/45Sg--aQVPHE`H0mqI4GQ3LB<YP@e"%3Q;OGG.@M$,#Zpam(H
+lm-`d]88\hLW&Y;BL5,R-2%qe`%p<ei`.1Ui"<.)*(%_'OpE6W`')\@XPO+H$X+AE-X.2$$1`/i
+S.s79DBu[taM;G-41r1e\+%h_HOG=,ZuAmfU<1B4(H[qq6WFB;B-K!(R\5,lA^)TEn;l5GY3\6W
+Q23UBc)!4&(o-=Q`mU(i5m^<S!%I2F^Y@>fcqI3nKcKI<:98RgmJ0:+5R#m4KN_K0*T2VP]D*4N
+5DHP;'22CN&%1C@ld6^/3QH$6<q@8IY.>q_rD$WR8_3tWCXOS15on8EJ>@L^)i[0H%*kI/EXs=<
+Xul(sP*Q(n12%1%%V9lMEeDc!c9\N4hhs/T8BoUQmh%_d(2L3FC5OMV0G2QYC9sP_s(C-XB/[1q
+BmfdMn?oWb?MS[P%`'=7rs]A+nr:uZf1:OG5BgZj]o(qlg%.L!B(pO)WL,-JM/L.Be(8ID).0bP
+:"uhe1@lV'r+X7.3NRP4S6+sN<q2`'G2u&1fPWlH^;pL,d:>:7!I8If\.\:k["AnS$r,qH`1+P5
+::GK]6+lDC*/&g%?eP+M?Q9ar`/Db7TY_USS8F)2$Lf]4i#f]j3d'W@FrJfqj:@spa,V2W#3.()
+s0d2UpZC+OC'DAkk,`VKf]+LtPI(dl6P`>%Om.eC"8:BS*]+80$4NLehq.(n1cG_Foh?1G#^1RK
+r'SG0BtCrjB/99'W3dnMZ4$t1Qt?ZK>t-KT_/&6A\Sr!JhH\?1LVL]5nuM7!*##fYVT_qB>D31p
+aD<^k5[KpIV5hjK\MZ8olJUU*a!p*2S.TmJ+j(ISEtq9p]]Q@0@<#)2cS,`"l0r;fh,SB)o&Y^u
+W27MS[&:%ChcJ@Bo)<9gDk8U%g-83X`+Os.>n?36N">]]ArfSDqj=AgbVRb3_2r868ai3Sc?kKj
+<!&\9@h"/t=08SkBITu1Z^<%YBdolYOS@C<WN]@)5h1!7[Mm6!nM0tKGK]N`/*BZNcO:*h9uR9>
+ZO.!oFa_k549g%ks2GM`jDq>gqGj$!-03VshT\H&UC,?=/%MXVVC<-BV`+_7O;;*%G+6l&8/hS-
+<9j-'V(0e>6SKa/G`q-qiJ7%D4ZH[%U-koAD?*ne-N3q^=DM99nC/m^"Q5.%CX.8sRkD&RQr2=Z
+WNBJBobCD_%LcQH(8OC1MF*MI'3u0\"W(mN&44VCeCA*%[R1QWeq"K7DNd$9?=GR%e:c:"Tl8tW
+.T_T;\HJk[m23!=:49&C^)Dd;.g`DTT7sjf%XfR:5`TH#07u/UkdRpu-*t=[&IIg&_:^lp@/jS#
+gF$hI?7#d\V@Ju+@kUcSh'&-!_/Fh:S9K_ApB=p)2cf2T/@)XQ-?14p1R7pMDUiE(`rQ=pmmn3/
+H.BXs:2a3^D*tFrXDufPO<+$(G)`-[PK+(*!IDXiD0_R<V:J::%cepm:5c<IT'2]T.c`H72RF8r
+X;kjC+$%H1k`+Kh;-mg:Z*@-/-n@b@>;:M_X9[t3`$er<)?qg/OBR%&F^ko^s-\kucYqiF>17W:
+o"tZ_]UVn-)XH[N*Pl`.=ZZAQ($%O'H%\P7`!c((GhMfZhqAm1Q)k`J"H?-:c9+)$N=Mi=.FF97
+7smJ:5kVT8:-YfB5+>`8_tbanZ3k(R%$,jj_+tkcI6H;#b&ic*.Yja(dtn4@>ogXP];E%_-`OG4
+P)$u54_Q@A?[oQdZd4T>%ZCbl\i]bK?[8(2$u2USq,r,AY^2=hIk^Ka>;MdMTW,%ZeHfcP1DllN
+@jWp!Rr+2:$;,lEXq<Z*4Q/+=-0]@k),rL76]_KkBF__EIdQQMGep5?hW\H()IQSWZ<3&tP=Ahc
+Q6R4YpBWFiS9&oBI=1I%!Z<EP#*od/0Zp-@i<XnTp,%%OMFD7Xnla4/b>?G`Lp(jB5<&<Q%*D%<
+3tp!bFBBcM*^6UZM'=)p]_t"ucgG,U`2&KDJCj=\*Xn[NMQW[k7Itlq+.VuS+AV[;IU['(`o*7k
+`_>OVNe*Cb/S9:?YVk<TDF;e&dI%qgp[6q.TM3TXo>Tfo[D.HY\UU9ejJ(P#N)9UFDt\]PS#H_M
+L%n:\$j)YDT>g8Fna[`k1Y1Jsq/>9@qgEoOPs^8ra*n-?87tlU<K9nP9A,Dfi.`7LiM&NX(HH#_
+7\d)ab`Njo8<&M_`X2=`6tHkNKF&1-cgF!\SX^:`*,$9Z-df?>P<3S;^G.R]>2VfNa?)6,kA]#+
+CMg#FVRa,ISNu5,J\E;BB*=bqrKTSF+J^SB<q(kqO"/Euq!F.d.qX,4c$;7Fs0U,/4F*N7^eac-
+r$,,B]inR>YW^a3MDF*UH$8KPoZs-7(lde5@aBiH0E!Wd_2l?AkiV=n.\KKTj#B*^o%hmZ3[YP^
+^LVL.5Z).BmQc9G*q3#o\I75J(]thEKT#ZKU*>;cX2s2elg"3\q;`g]SX'f4#JG6Yh+Qp,EBKN/
+YI#;uOr+[B(jIpfH*!Su(D?M5g,/B>14Zf7(RW\eApq32l&aT$mF:q'c;J9>2-O#JGgRm`_3K@l
+29G`"derh=-g"'5O79CQ^aRYoS'PWkG_\X=6ONX`R$#;OlDT4g)*C/iGKd(&5pHF^!]Z.qDl^0E
+>H;Vk!f,H0JLY)2=bT^TU;M!^=)?(G8A@En`sJI<ICHr#2V%7-Gj8M7%%&"U3_dp@X)4k'H;n4J
+f,GU`%M#<Z5a>>YPaBFT$=r7gQ]5VUAWGT_jOD7fWcQcH6T+)U1ErA#:qYX-WarCjH%;jMkX$(/
+of_nqU/ka[X^sK'K;iS8%-u"T('Qng%VB-`[Q+Bs9<YZYKqoXi5'.$F)'9#'OC6TrTeV?n!4"Xj
+G'f;=<8.\1Vn96YOgGOiK-jN5i"Cr1+LY%sL9<ht!03ZiC7dh3[Tsb:dTOcq<*gVU@1F_K+Q"ZT
+)VWT+!$;Ah;9#NKM+PjNM&0o=V1%l)N"l*o&\Q<R3_:XAY+lXaPDBmTZc6r9H]6Xh7(DqO#f\cd
+Q\AfF.pl>=T-s(VkTB$Uko\"8Pm(QipWa-alhGi1s$JE@q2a@%Y6%V#n!t!RAT^5Xc-P(qc5>S<
+\i)?+k+IA3LgGmNee#N6qVV\MKu2$s!]nji3cb&U8IQ2;$?:AOrY`CS=Imd142Z$&KU.G3hLAo1
+ml1D^T>BkArsb6S>Ac0XV,,b=1_YE=0V"mCmY7V8H>C.+Xe()=Vc/pT^,Q6l:3f]NRBB4jSK;Hc
+^B\SW.s7PlOSU+c&*P(r]>MMC5%.@s]S^W@aG`!@*C0b<S;Xl9SUYrHFq6_Ir:O.chi(3-*Qo/Z
+8p.\uSXl%>j*qpe]Rf"rD![I)W>i9^-L'?.%*(o@#^Fm\;VupAJo<l<gg8:<J_/q#pfEQ\VRu2`
+C+L.fL0J,:[mR.'G@q7om97,fR1c()3;\s*k5C(K'@Z%77.4^Z-+Zo6/K[f5Q+4dRbZ8ao]'%!Z
+/&%%X[.05[S!t^g.<YHdrLU%9M;OpC\rP_3B>gMq>uj5l.?c3&HO9kd0luMbLGANHS(^>3o._1T
+rFqiT/pLYO![<Ps/14f)<$+JAk\t>2G\4^b96]\=Udr5s\qK=b^I'%?3qq+I8^gp%HuJe@i/W0"
+4k`-]n!H@Qd;\o[d9A;uo[6BN6<jo\b\,AYIL58"2XhqDWI)u+\i;g"UBQ\)5Ob;bF=P[EoMJZO
+2B<3,H`7-$Nq7:P07(;+\7<XDa6cNc'#]8#-UN@W~>
+endstream
+endobj
+15 0 obj
+<</Type/FontDescriptor/FontName/ERZIJW+Courier-Bold/FontBBox[-21 -205 623 695]/Flags 35
+/Ascent 695
+/CapHeight 597
+/Descent -205
+/ItalicAngle 0
+/StemV 150
+/AvgWidth 600
+/MaxWidth 600
+/MissingWidth 600
+/XHeight 451
+/CharSet(/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/a/ampersand/asciicircum/asterisk/at/b/backslash/bar/braceleft/braceright/bracketleft/bracketright/c/colon/comma/d/dollar/e/eight/equal/exclam/f/five/four/g/greater/h/hyphen/i/k/l/less/m/n/nine/numbersign/o/one/p/parenleft/parenright/period/plus/q/question/quotedbl/quoteright/r/s/semicolon/seven/six/slash/space/t/three/tilde/two/u/underscore/v/w/x/y/zero)/FontFile3 59 0 R>>
+endobj
+59 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 10396>>stream
+Gatm^$!:-Xf(MDNaf0DrNQ6XZ$#%jMUXibZ[a)<V3"LOA'bS:sjs^UI"MuJk,U%gD_A%S1K&VH@
+>/sf`CTX/?S\Eh/:=n.PFs"KDrLRr"KJ3](]?gNT%m17\kNlWZGJ3<JCEF)(CC&nXiA#_j-ojR1
+Q7ug:.!e,T_(92g#P7j)jos'F[.gigj0bBnLiqgSL?B*=!5gq80X%M>B+H*'j?F#:*=9^2&=spa
+BmI_[U:Bgu@<b2'mn;Cnn!GkIg@Ut4AhR8j^is.sqhjj"YXDoEXR@G47nQmj-nZht2X+6!jnS9-
+BORiXG]\7:7&'/,rVOM+Z]At\)]]^U]1NnlN/J@GpqF+_MXMO7s4K3tO*LcCR!m)5^?\4m,2[OW
+lk]GF64cQ3db(,67"NPA<lD18=I&YNd[S@Z;q@c4?(89@?$b`2r;g=G%VuR2'X:fNAS]f(kj:)d
+JuA")*\q7"bdV3[Me>]F8E[]LmhO`0prsnq@)Bbs?X5MQ[E4i?^U/7.P,SR=T%H:Z+=7X=M1rm+
+`$Sq;Z'gtIC`t,=>D\]&D8[,t4#*#Q5tiMH'$H*q6m/b)QpCie.u9V38n&R@MXW"M+D):*&p&lZ
+`*?a\nM2h[=@^"jX=+!5";(0]7Dpn>2.AQ83\c4g9T16_&C1p6'"`rs6jUURFq^VWRM\CS7sGU%
+`"9e@n0H!d?GngT6Te/W5]@#n5nR7QJ9Zt@-&*%]`7%+.G!!G"\Au<,0+PPVan7dT[>!Y_&X.:G
+,hGf15;h])T82Pk/KNt69K)h%iO0?t,MjGdpmJ@!LH\otlLe"5H2>q37XmqC:)Ajl53DJ",/%W6
+s67ufG37G4j(-IhH2bu'<kn,Y?R$C<L_TdTlg)14\'Xk:5H`m3^K:@,qct((D1)?XpEhGZ@!cn0
+M\Qp$'2'^A-iS28Mj#V<I56*.9:K81S"cDChUHOD5F`KC9f27Dl'%tl:]FqEZ5I#q$tar/_>FW[
+<uc19[E7CD]F<uMeXJNiA3<]M.F\ua+p2?UYte2sd&W,921U8[Z4`C:FbOCQ]`hMg=]q&iQg5>h
+&O=0+W],e^j'9pQ(#lB/jT^u9@ft5m,b!9*9)o<HfuGs.'j6fAOq3!;%r.1B/%'AI8g:=>E+#>k
+7^L4KE%?]LYSDWKLpW3=f`@ifcgacH*R&8E#,q_D+Oe9kAu(&=&65!81ljtD2)bOa22^b'X[mPC
+UVbBc'ef<_#/0hh=k.I#antG[kse>C\Eija+9>Zbh4L2YKpR-Yn6M[:;N8f[qtY1?(L0Zr*dT6?
+Amae?YS@Ei_',%aYtUY;K-=V-%;3S/_td<oTYUl#<Fo)&A@'Bg+O3ue1)3D9OFUk/VHl4rH$E,?
+*q^k..B)h%=do[nrhKn^JLpOj@k,r32/j%/mu8*W+O5Q!ZtQAb"a[RlS">%fHRQ:,W;R/8o6uLM
+7;,TJ6&^lJ#uB@.OA[-cn(`HrNd!`Qa/GUM0[m9E>PsPS*41AmF?6_JYb_\tb*6+iB08PuTm(GQ
+nuf3FH&I3nS8>?AC*3?Er!sBpO,CN?P:GY]kN$qhM5D%bAY]G(dEiF#E8NgA(`F#$]j-(I.%>tO
+iAg7Fd&<t0:qT#/@S;+.fPk9q)go:ZYle#d4H;M]/Vb^d`,)@!98GA1H)!*UHkEYkjR7$rU_3D.
+q$HU=e)0$9\9,im9loHu](3t@[k@\'E,LdE[<fUi4N-\b6c8^r_9nF$F6qGM_<!.8Z%@,K/2Epn
+Y*2JsFn-F6H0hQoD'd1W;!i@)(3Yu7p,NtS4g(NRWmd%!i<#h5TS[HoE<F-]WRG>pfFqg"`<W"D
+#OM@G,[RY'_9?p*XeV>h0Dq4ibVbi5bI08p[ppDHM2%`:k[hSF/t*9B6([T=O$4t14NVNEWN^qg
+W\183/i,"^-KE.'!0F/n,b`B:J3q.[^Zc<bi;W9:B>6=5-mWs5HEeX"0_&PF<i&a[PU:N%0S;-O
+TsRq*/HN9/f3D.AVc2n1Sq!.pXA9q)!OC4Ckq$)d?3fOPTZZ6`Ylf/WM_9@;4s,)KI$H"=hg^/$
++[+dcjL]lEG]/]%'V`)S%m9rNm9k&-Kt0!)g_XPg<J<a'6jm6h<WQ^6n5VKN,hL$<C(goO0Z!B9
+d%mnBeu)Ie!0PdRomu_s#'AX<XD"`>jP-b1qW#?pDhdF[CV@XW@g=$?PTJohZbYsf4lj*1>4pS?
+m:U1:K0.Rs/t@p6i,CN0O!;[%:8FVadZ<r>SNNA"_'.SAi/%/)7(ptF(>)'0E5BiD#Z5\c<+OPa
+d+;#e%X?:XaXeN0Do17oCR!Yp.$e?5*+Z[p?m]Ieb[`RZl,01M<tVj0$p),S]FOu+4(0$GK1>k.
+%g?$1RG6!pcrAXiJ+l^rMQ!oOfOR97RS^^7lif^C6:G]j=po!F9bf8Q<ORc3_m(h8_$LX`g#+`H
+5R)+]3V56[&gV3,KaPN3U9K/'2d-X*7R7M#kWqM+50'7$*eu1>U6K;jj;J2^$.UOci%kJGpgJHA
+_B:SnLV'3kd-?.PJl=b?EVnjmDU.J,FYclj`c3dHmgg`P:+&?07\?fLQ\kD116AHq;EVK&Lo;=b
+cZSVHm[3;Wobe1+N&Phd2W07?`fV,]/Q^1XUO-7Zb8Is:%O:eH^0/mP>4c)/fJ.UR,6=<.o)(`P
+q++6?3"muVQY#07fd8u7<EIqu<Q5`2+PITBMuZ-d/E>7i]oDH2NNU;FjYh@H<e_&9[E,rhDU@Z7
+S^ZN)H,XNN_S'U5i!PGP,e+8choU")XR'S=r:%)=W;k*""&OI]BmjINh)LouG16,43!;^e+eHmd
+G`t$4RhXLY^oT=/nIes>ZuXnIegQAAQ)<X20AiZ8@OZ'Kk#W@)%>DM/_;"7t*/ggp=XjTC<7:Ki
+[G1D@g1'l86XitV?4ch5<9Z_N,hE2lK@m7V#Gj[e:nhl$4"%e%QV.:"oum(('5uD,@P"3!9+5V/
+l?m<>\4Eb-HE-n%jkTAQ7B2pIjBHHp(h]LjL]d<,I$;#)9GUIj:?/K:>E4o"njuGt!QMC%%*R;,
+$jQ#_@%"5_g*SriY#%'eTYoL2eC;iab'XNN!?K::#[K7e74Ok&LN7Nlr*gWNT6!:-VHebrl-_C2
+=(WcHXUH]4"r;_H$/9Z?h]BHF/>cHe_91IjNpShGpeC+i^usX'fls>CQf3iBE%K:T,R.'jr18YD
+h2Ke*=#-*f6*'I:^kNGs=-R9<+\7`LN@G2'eD(=IJ)kh$e6s%[^2eQ^,gYAU<1i7oYo$,"%:r>7
+Ng$G!M@BLPUgVl!&-bPA=f(CmN?2'16kYH&^]^\CQ?86!()CX'q+8*pE$fdeRc+>s`i^;`Ap@ib
+5t*f4mfU<rrOmgsNLij$AS=2`K]C7s)PG^I#9*2jLLVj_RrYK'Sl8qg2$@5ol//ShR@Y\NO,\ie
+#?Dfc:)3*:'Y>ckIq7g"L0[17fU@m>#cJ3,lE^QEJ5^+<7F`_*d[&s@S+3%WA&Y%JR)[))RA[hh
+ctM](9a1R@m4ENfZF)do\[2m28j@\IOn@)$k[OS'^eG1I4*d%dnR55DE037cASH/p-Kl@b''W<7
+IMe4ai<U?I^aMt:J8*5A1uq@pW>)pV2j*T0oKD@LrWU("%%I]2K8^as&4;ek_DM.u"3RiD19itp
+pD^1Q'W?J"HbcQ,&JBcX.T00-P/F-T5R<&>TIT4CQC.?Y_lAW^j!jU-pP7SnVd9R/_'SF;QIEl*
+8&0INO-/:RX6JAP2<R1!2>j.>b6$Is&$0B+.D>&'/dFA4<&#8JAd#n0S@R\b1hT%C;%%Jj;a)OV
+D_^2jAQG.0'tMJF=DN5hjr<rFpJ5)em</H?A(:$5U$<ej.iH?R%"&CLh4uVD8:66PDXtiE(X^=>
+V3r4;r)?A7+GG]T9Xa7]g4L/i]<ScJ#uESG,sjm1G@,?35no[g<lOM;9T50'J7r]^(BG&L?8^9)
+iUd&iLL0URiKfF>JD(ZNWB,(un-@4?3N=u'2iN6,-HH)W[<(f4h3`L,:%3^$qIQJj.PHYfJ_]p*
+"Z4(2E/++l8rQSil%8>Vj]:j0F<CWV#&0nHX[4hViKV78_,2q0E)c`Wa`Hb*99&.l(?R'58jdMV
+Uq*-7#.hJ1hqNK%OAVNNOVn_o*H9S-K#]G:!G-M2\6pE*eL[c;dCAa8'@CK%hqAX^Df^oN<+H]u
+H0:BA"I15A,l-Bg=bV`c]XCm)D:0B7$Veb];m<p4)L1U;,HAM[mh,MV`;Q(7LK1=kjSA;RbcBZ3
+E2g/AAG`?pbMX^l0C_ZUacM]j.[PYp@$c,!OFgC4kqeteX'Sbh:aQ=-5U[?o,`(H5RC`GV2rN]O
+-<!i[Xh\gm17ml5#!dYc)ajQHOmco!aME:P\WaLJJGr-,O-s[kQ#om='7,n./$i%df2W_C'fb3Z
+$g=^Ki(WRb=miAAp!uB.J^_6a,g9WtRbT$*<O(A/n*-+Ib#1&),pEsK*m(U-2(3d11n.J;m]D;f
+di3>+DDClDB$+.d1lWecA;X'CU?:pR"rfI1.npsI),1C8gtier3#d6.j]=!QDA\F;O&]68YfO02
+=u8m7UK$aC;mLJme;;=rfqJ2?V`#Unnqa9aAeWh_>>=:r8^O39i@$-Q*)&"ZeuEk-S[,>@6-:ZH
+G7gHZ*Hg-<mpKc(%$"tJBK-\HjSV80:O%tRNqX>B4i'(s*IPQK,K&OOTHqkq&rf7!L^uR,aFiQE
+b0S65RW2IQ,ptbj=!=YDA%EA+ZYSXo=Eco"pR0*&\&s"c\LUprMF+p*>^@u+gc&Kb1ZY.i?02T(
+1"_X%nlEh9M4;:!Ye"FfqsO0e/u<rIZcUVC$S><\V##(3%ni+b!$7ptS,lQX@#>*G+Nb]Y_&sR#
+91<t02JEh<##1uWg0-CPcLd!`3t>AE_e(@8VkLAZc[!=%P&6KGNR"2:B7)OJn>J@+:6DK.H(KYu
+InQEpIqI$0I7:Ydf"HFf4$9``?U>jr69Z=Y&5>HSOOln]NLknHe)7=^^Qi#!nS:`h9YcP)C/pcJ
+99YjaT9Ye*'*@<JmIm>k<5C`/m-Ui*G;+iV7$tG]mQQS"V$$]UhYRK=-Q:5tc_;6&,4lel^YqjG
+*V/+rE;hN<T<5^Pf\Wm1mS03P]H6ul-K:aC$YE/)ZLCB*JR2^]pb.31%fJ')6G[oZo;k?Peh=[_
+3+uJGfi2Uugi+TEh97fm%!b9lZ;jrU=%b)a`I]N:]&LEuY,@V(Sg??-1/PGOC"-PfSc6ARftQ&)
+*<uXY;K=`:E36H':&gF%^:WTYO["F-bK7)MLW`JGFp`Q@rZ(J'8D7DnreH=bEq%$B'$9XUi)'!q
+nVGFop-u+rTV80>6@Wspd30K"1RX*lrha'2Q4@Tp`6$(*H2fc?N]hldXLVW@Q+Q'AjCUT9jT557
+>t"!I6B<egr[EAYc%F%KN`79k7t:N``[/g[D-X_urRHtt>eg+alWZ3nZ2D>`._X1'4%;4Ro,M[-
+XARHX4<;e#9;&uZ8G1;q00TB_PCa1i./3k4iPnfHH':CIcT>OleI_JsT(O&8`KD2eOAM[O6sGd>
+>@?Na.(O62+q.H6PiPZR]!O6uo4l<'!5#tAb&0,)E1(95Y)8LD23K56>*^@6!b=Q]T2\5KG3bp_
+&&sZoJ?6E%*3+jpTilV<?1@auH9mQ1So!;tX$hS%](:1(mWu'!XsTe-^%^#p?;AVp+4qdGpV)s+
+I'Lh=)Dlu%Cl?de4dZD+'O&^]>L(oJ*A+dDJQKU$X4o(<\;k[4GgC<KmaQZYY)3IEE56`oa<iki
+Rm@!?*gbYP6TV)BGFugB)=+,.R5P(BRH36!&%(ddG,O`s)=T9Oa6Ym$$m-epJ(/gJ4j4'C]\kp9
+`P'Y?[3opApcl=riep#j_,r[=*X9uP\7EKgj!q]nrf%.-]7S@k*/te?Nkf$!Km+'DN$*BVV2U[/
+6c[*<h0ips0-A%.8"PZrZ.$M.2M%,?[['Jg$Dfj.U?\kDSbUlNAhK[^\RGBG=@$GCU\q"UK.M(=
+V5u/iP`"T&SkY>?=0JZCOn4i\!2tbiqTM:*9*qk?6+0FoR_.=EEnFWEct_O3NPCSN2I>\WpHO%I
+54)HcUEI-+bk/2dM()YuC.Kt><+C0Fk\,;:qO+ii4hir`J7<0?g=4Rd@loP'g$6*-0*h-b+T;hn
+4QnM`D5>;0NO1lD(V$TR'Q)lR?$CHMqt/$[r2Z$jAcP]EjsJZlik^Ie2<f;JW$]$oeTZt(oBC;E
+n,?IX3H?80db[?2%N+Ds$AV5!M-bpcE9Jqp]3DB18V0^e+tj?j);A/7`JsM__C27*h^hsOJ`"*9
+mfQ4&hQ:*n*'_6qOtkOu.(iT\Vd-t'bl3P1>LT#4fuXE'^J4RM#nE^g114&-MA;W+^;G_CrJR[,
+K1r2c(HG"M;\MQ!B!gYsW.>=WfXG,>F!C16phas^S2R!Q\pU7?'"HcZlp^?f#0U&JH4Fl3+<?8r
+-)U)al!3jkR.Q6b^CLuZBblTh\ccB9d>RKXVkRNOWM^![ds%Nc;lW9gcdh,[!SlM!lMZ6dH^WAU
+:n4^Bn?E[qXMEPfbX^Og/8CE9W-"Ih5h1t0c:<pUTI9X8*:GHN_`TZ[8+rj3GS"/GIY9j.jb>'G
+ETD,#m,'7DHb$dBRL`D_e;^Lda@$)Oj/9WiUk[rf0_V[3(:,(Zeu"eS3cAIH5Bqi8!>KN<flCfK
+^*nglRNKumC#0A05cQ"p7.o4$!^&mNL^nEDeUEKL4]H)D#BbHUeBi8he*R;o!nAoX.@^_*@[%K8
+CH6%3)[oNLo\=limXa#p8-:'Bpe]7YCk#^VZMF>C#P1f:?`]!rnjKgkQYK$3rb[C2#?PXZ]:<oW
+4WM\=TcXbHirIUU].uT1s2j]08g.1aSD@7'+-#IWDe836:,N9sU\WuDFG8<If0'nrP3,G*&tn6I
+OqM;/[38NMn,3&_Zd:,(!C!r\l<6QX5uGoS*%6DKkuC9</&TG*qaaDK(8F`>f'tK\<-"Qa;aE+N
+M+e+V]aq@:b.=5Pk<(Yt\aJd3h@=L2^WK^dVIQ;PKB[K-@s:@;k@cdfoMtuFs0DftB,!1M)@7l,
+o[stpVlmVBXt3)0?7A-$TbM?6de"5S3r-]o-e2@X$Z/nF,*:_lqmqGuXflY[NNGDf812;b@`$"n
+`O%V$gTqnA%'tWd[o_Kt06WV>QMHFs=LCSjKW<!kCf7-8.,gq^s1M6kSgt%dT7iXY>>;)j\]d(D
+K*cXEI)R.niN*=t%=Sk:&U7X7&mV[ZC^.^i_XP>]U4pCTRa)*9p4XMKR`!II>m?Y3R>U-mNq;rt
+^^h.Up,DhFqZjTK\%aWu$WZVJO>g4A#l3Bj3s!RG`dc(*e"BI6\*)@YXd(kg*D3aI=)HToJrf&8
+6(D*rT,Yb8n$+"TP0oY,b:QTm&VZNk='XML@8iHaO?L!,<m):nQ-M1Yfj&J[gQGZGD(i2F'.u1c
+;s>\K7;NEuB4c]sT3,llbtsL/=Mb$GRaX9,dbbbk(C0,"B.pbFe1T+@L-;^*eKN18\IK\[rS52d
+<X)CT`V4.%Hm[l^665^3:TnlieNWcBjp8JR9+_-,d"m[N;o:uu_W^b;&4OQ>-eD@!(bLI>P/_mO
+_,t81>h0+XRiVBM$8[hmq[7T99,$>`:-aeOK'mW*0.IlrdrWEtE%Akj'hW-NVc8KC@Pt,6fVgN)
+WQhoT?+\@:f^a/R3a4m[JV@qb*6PKR*K2XJ4-dc_md1J8<^nF6`e^]FobtPMUJlb($=V-H.*SWH
+9bOE]^`LW-TM`oik@s66=O6L#R,jLa\;H4lNSoJe<)]bUSQ6g5%Y,g-6A@HPnUQ!%=:8Sqi[nV,
+N]%8AU?#k4c7aljjL5q!9d^,3/bViq$Fk)K@rX$ElSjmY=tbm>a3maQ22!"+;6_$9^+X?\'N^Q!
+B.>L]lNN9'm3NPLFmDH^Y.]/m"M'c\&W?r"7eE"e6YO]?8DQ:g1EY2&L%R[<l%X_tqcL4,@QD;B
+bHJ:'7b<-Ra.TCWS-lS_cAb2fj'R&&V]D-e4e[\2T],;>Ra#^o^5,t7W63&)I?Ct:P^fFmUp15&
+n"0qj\g[?hKJbKqg),CZW%*n7e<_/ajo-;\m&)Ab1FE>X7k;l;.hisdq^43_<iD=<]-8&G3M>9u
+*m>RJpAOJ:\f-UAJ+$1+#DIFL3G,ZbUBd$s]%VUTQYkic"a_&u.G20hIPI2lQC#?u$U4.$42S2:
+qqu9Z93ZIQq)ND^Jt,p1O5Ch@[PO:h5[:ngCe)YT5eVRiACI!Ocuj-@>JHH-k/H5'<X,dA`d:0R
+44e+XBTtd@'46r.B.GQN.HSIXN/7(uF6-YEmrS4-?nO*GTj4,-N+AsPr6fs+.&,FLbos]P_@T_]
+1d?n*O#dVW.am\!`t$88$Q>sl.&Vk"1<9PMqJ-hUXK^t5>ilmrQ,DJ[U[aE.GeZ$*iCEOJ2Z!f"
+O`J\D!c\f0CZ35!p-%"oq7PV:L.:T55M#Sc1,p24\Td3i54;Ql4nAO)2@9nG,5T=$n/[(l_q2$F
+h/_r=ad*kIhXAPRp"m7+SUj'3hKU9Doj#Ok[N"Sgb[&H:cSH*qAu$qJd*"/=>Ck(=d+/2T]g!Dk
+d&65fItrKSlTDEHnRU4do5kT`3GYc>:k7n[fg0V?>cYY+Od%-FIldSHqd1EEnpS?b)n+).4`EL]
+TCJhs4pYhn&)IFTC#Pc&"6hn`AdWOlRIt45Oc"3mpi=HPj+7?MpAes_T(XZnO0lTIZfT!GA^5ZP
+Gjm)(g(n9F>ls2'X0gFI[IM%&_Nm+HnYnQFP_BluY9<Acr:55^E_UBE<LH=A(XHEIn+0S:X);NF
+.WLWQ+B<l\aF<MAf.2#("569`R[9oR.Zi[(;jgnJA>qW02o8"RO4Xi/1ei?l665R3Ki,+k=BJO-
+SR5D!(O=V@1"%A3bWWuaE]0fC8DTo.`W8h(h=B0E16'nmSA!1(3lZ[=A6P!Z_g['1qsspG8Tl?^
+YhaU/DY!SgdBNr.+*k^nbl?%-)'nXl"h9f54;lJ9-eZ!F]ET-Xf_-H\@u9q+=\TfjT_8LYY1^D"
+[R'/X/ThDkZmaCOd,sW!#B2t\o;)GW7EU/fkRX+VNRC/<E<V%&4!@s.eE8+n>RIdej&b#+f'>92
+\);r#BO"iU/_n"QFH+ChV]i;H-d:/:[F^GHAY^(1MrH33F_kqF2OM(EduE_[0*h)j\TMWJE>X@$
+N@[.=5:8ZK?WuZq-r=]co9J$G+EO-?0_;OIr`41oJX>TV0ld(X&&k)#Fi`-W/CkTr"Q)Mt84+'_
+WAa%$TY^pJBo6tio!I7gPIO!fPX(h0V=%TC,.s=T.&KC<P,i)d?nNl`j_MO;MRCEr&6(':8Ocd&
+F.SZ5;?)It$jV/CirOera`(]mSY?1Mpt0A^lE)CEHp.L3<F`SR"B>9J-IjHA'Y-5,r-2^d@3V?[
+Y#r4g\i?fE7)3SD+"l@>k1FAiXbT7r*7@h.iq#'o83$&HrnaQ91fbBYQQ3'R<`B,>Yc(7jP0R23
+CaXL^Mp\#9RS9$*leAO]'h=b9lOKDT2W-[2`c4d.$gE4K`c,['Aotd(+1eB;*0&PJ^HLg\bE"gd
+<\6,Y>M6JTnRP>Oitpr2O=?Nn-HG3.Yg']%,,(:]/SPL7-r(Zs$Y%']Yo,"]<$8$U-E4tW4'86;
+f,rNX3rtgTQVR']YpZ$:<TE@1NN'(kZ;-2&8sps%%&YBK%GGN,69[tDMCakW"&rHHJLY$e>pM;N
+9V<5e'GuaqAMD!5EuBq!(!-fI^de_eZEc:X1u>bmN=)UM\j!/uk1l:,H?q?I*tP-OH<2AG01-e-
+ctM>Fd#]$]]o>#E]1QYe4S;]SF[f)fgalP2]qTrV^O_.L^O-=#$t_&UNDs2(<NJi11NH0Po,O?_
+Qp%fLdCEUn1A;dQR(,lQB&+%ah)Hhlg_1`i7L'7.oP):o"&&I+(-)6/M::Aj$@9DV)1#o^>F?Y`
+pb9)HggKpdB&ML\7<gbraiSO*\Gd'JDBZ4'Bj`-P'Kp:ZnrengC61m'<@-6u)>/ccq01bY'6#f'
+$c!qEOLkR7@S^X&,e@=BS,W4dlXsQYhKM+H^&.5'3974i1QCq"OdGY3Q!bprs7V=go_NrP)*djP
+\$`luDGc[TMZp>Q$U%ks-R-p)l0)9WKTBI"Jn:80LUJ41H84t`5lLWBdF6Y1jiLZY\PfCL/N#BN
+/asO3/k\;X4IpI4HqH\S/faiX04/'N&[IjdlF`p]CeX_*E-T:*ZR8u6.h]?<[>:O?*@iDW\Eq=Z
+Ps'jG]9RmFU[uYZ765RfX%4_bd7Yqm4)Y(b]qrYH#&HK3Um_ETDOrnC5>T5nNn[?o]AG!*_jtF9
+.E]o%".t8-Uq!p4Brao],1Xi;[_bmBX-J&lo\n7`l@oap3,CQ?r%Emi[Ti~>
+endstream
+endobj
+11 0 obj
+<</Type/FontDescriptor/FontName/WLHAMG+Helvetica-Bold/FontBBox[0 -23 516 724]/Flags 65568
+/Ascent 724
+/CapHeight 724
+/Descent -23
+/ItalicAngle 0
+/StemV 77
+/MissingWidth 500
+/CharSet(/one/slash/three/two)/FontFile3 60 0 R>>
+endobj
+60 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 701>>stream
+Gar8S?t!MPA7Xcq8BiSV/]g[]e9/p[8HB-3rK(Xh+iEq>QFXWga,HW.XKi6uF'e?Zo.YC[YUo[V
+:?[&:i:f;3mhGm4b`%Jq?.5A9$S%&idkaT11dZi3279i7&0cjpQBhkLPqX'ZQdk$=oK3:7+JUJF
+-bgc_26Xr%_&914-RU]Q+[)a/+JW$^0dS,'"f*_$0deh__(@GjZ_/GU9L6R!;o-Pj^ebh<R/1CV
+-C#>s"=N=H/,1NC>`U)G^qda[DeN\*^`^E8`$!8H_S?NN0`qf91kRBt$qA>\*IQaGe]qh*T(4[4
+oQSa@*7f1IhiiNOYk%`Pcj^\,qQ@X3^$/%hkb$St$9od.fLsJ[&q9FpF6Kl]<.#M[;>HcBERT-r
+n$,-C5GifE'`EH1D=5Dto06U^cMr"b_=#nphdppPs47+MDJJ`HX0oRMVa9a_e0;>*)g7f:\M:q>
+[OC=J_/Eqrh`R3=4tXOg3I[3t!KA`-cLYQ"G?1F+?b\,hk5;A)/puW)me;X6Hb-+s/T0BE[kapE
+SAR9LcHe:pj-=euh_K"2^Qi+BI95gupoaSXa`k:Bkm+=LaU:<m]4KZU1K*,@N3E2G[;sS(:R92M
+W/L*;iMcc/`nn&,Dr.;#1KLWL\##SSnES3tQ_\^2q0Fs5P!qSnbl;QB5C*prG:p&eMVR+"VXX)&
+=.IFNbJ4)X6a#JB~>
+endstream
+endobj
+9 0 obj
+<</Type/FontDescriptor/FontName/QVZLHI+Times-Bold/FontBBox[-24 -19 476 691]/Flags 65568
+/Ascent 691
+/CapHeight 691
+/Descent -19
+/ItalicAngle 0
+/StemV 71
+/MissingWidth 500
+/CharSet(/colon/five/four/nine/one/six/slash/three/two/zero)/FontFile3 61 0 R>>
+endobj
+61 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 1428>>stream
+Gar>CHV>,t&Dh!ep/YKDkA!f_DB!j@!p'n6ks;!m>!iZg&>d#CDS8-BQeh`J<J66er$nF?&6meO
+B/qX98:putC/YGm6u6=[[)Qcge[F]m9q3LoCV#lirM0BdB"j]/^<+T\KZoK"8MVF/@cLa6)]_u>
+Hl+(\-cIc(E<YIpLsEO_neFQ=QTPNW;CGAm'..K)Kq:_PC`tWg&/7]^:@tDES2GXF-F92jDU6Uf
+NerVk&()=)#-P&ih[HuNG?IU_/lH_iGcS_rj6c7[/lep[=tSj+a]d^]]=:b6OZ1Rpm3oC5(#1kd
+X2X=F<,pXABJ)TKe&P$lD5P9Q<pAVL*O\j-Qg$2Cl!+F2ZrGcYT-+EV5@16`=M8>63^Y)WKFj&t
+:dR`)-<O^`Z'8?[/11LpAIpW=W?EmX&S*ir`,DF.3#+rKM+thEoa#UF!XW5[D.3)oY5^RjrZ`F7
+2Ur8^W<UIN8:WBbTV,k6'DjCS.k+,naJk+cD_eih-QE:>@"3`@."]<9&;+-Ym#,.#auYpfTsNVT
+_1"=PniYBoeNf)q@_/a<>nf&5PZhNd]jcKk@nAQlZkRm8OlKJ9b4d;JDJ<m#3AtiVn)S3$oX.a9
+C0n+OA>lZ]2DZs?TN@gK<dP&,A],OFGoBM9)*jC))8[eA0:5iXD,3<6-iu+_L5'j?`qQsgh*?0`
+cVs7>,-RZnA6'Y/eJ?2OAru^m)]?;?c6JtE1K-eDRfg2uM'o2Fs8?JL.?;>-`\"?](YO:0S@p!O
+_[s@"kbZFW=%.Z\SalB#Kp_19jlpJkF0&)7X*A%HeIGe#j\;qlX12P?.UTR5j_6rk>AY@dI:>PP
+mrV^@c^::j'"eE*6r*(f\"D,Kp"";NG;76qhi;i/5/$;[k*H\6om,LVYEgG!#Z.7%#R(5Qn4Hfn
+<;D<JK/QccS>=4u_2E;2>5ZrR'pca-3*`/)"q_Dq*@Mhm/\sOY4C"%B49oN;7So9-JpS2"M\@Xd
+l#BPBnSNRerq5Ho0+OQ1YBoQFS;ksaD'^L_gs1qREqR_a[aTR7A(n9@]]6$f0c4<7n*p0\n,7c.
+YD-u)*]LG]o5?Aa0/!;<a?e1(#%B$$p\ZaGSrCh$F0R8B$d0)^0mLT7Bh/_#T)9r6;p`O2R'*AM
+;J/ph5h(G`&37\e#!Bo^kfLZAZ2Xi/^:WN,GCudDf5M*\6e>(\F0`4@7-F)8oL`$^F9,\XOSo_@
+C$I*b*=JAkgNRT4cb!8M,>^/"+Wf^3_i+.j]E7uf8cj%?^U8,J]bAF5^4jJl%!Z3HD6@Y<giTpn
+Yij(k`+6BU5n?Z0d)E^pleUrs1QGD'd3dp:>1$<n"N-uq8;8N`-6WtCC_:S:/f<G&3AiiQ1!,Ik
+C>btjM!']fLNcHeNfH`aBV?c_=qF=1a;&B\5B$We?XP!q4b5m%nIMH9&)m~>
+endstream
+endobj
+63 0 obj
+<</Type/Metadata
+/Subtype/XML/Length 1395>>stream
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?adobe-xap-filters esc="CRLF"?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+<rdf:Description rdf:about='2da554ac-e0f4-11ef-0000-00a006366a0e' xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 8.70'/>
+<rdf:Description rdf:about='2da554ac-e0f4-11ef-0000-00a006366a0e' xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2015-01-30T15:28:00-08:00</xmp:ModifyDate>
+<xmp:CreateDate>2015-01-30T15:28:00-08:00</xmp:CreateDate>
+<xmp:CreatorTool>GNU enscript 1.6.4</xmp:CreatorTool></rdf:Description>
+<rdf:Description rdf:about='2da554ac-e0f4-11ef-0000-00a006366a0e' xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/' xapMM:DocumentID='2da554ac-e0f4-11ef-0000-00a006366a0e'/>
+<rdf:Description rdf:about='2da554ac-e0f4-11ef-0000-00a006366a0e' xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>Listing.ps</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>Wesley Mackey</rdf:li></rdf:Seq></dc:creator></rdf:Description>
+</rdf:RDF>
+</x:xmpmeta>
+                                                                        
+                                                                        
+<?xpacket end='w'?>
+endstream
+endobj
+2 0 obj
+<</Producer(GPL Ghostscript 8.70)
+/CreationDate(D:20150130152800-08'00')
+/ModDate(D:20150130152800-08'00')
+/Title(Listing.ps)
+/Author(Wesley Mackey)
+/Creator(GNU enscript 1.6.4)>>endobj
+xref
+0 64
+0000000000 65535 f 
+0000025537 00000 n 
+0000047899 00000 n 
+0000025422 00000 n 
+0000024047 00000 n 
+0000000009 00000 n 
+0000001316 00000 n 
+0000025602 00000 n 
+0000027661 00000 n 
+0000044631 00000 n 
+0000027484 00000 n 
+0000043590 00000 n 
+0000026480 00000 n 
+0000027858 00000 n 
+0000026863 00000 n 
+0000032425 00000 n 
+0000025643 00000 n 
+0000025673 00000 n 
+0000024198 00000 n 
+0000001336 00000 n 
+0000002660 00000 n 
+0000025736 00000 n 
+0000025766 00000 n 
+0000024351 00000 n 
+0000002681 00000 n 
+0000006108 00000 n 
+0000025829 00000 n 
+0000025859 00000 n 
+0000024504 00000 n 
+0000006129 00000 n 
+0000009459 00000 n 
+0000025922 00000 n 
+0000025952 00000 n 
+0000024657 00000 n 
+0000009480 00000 n 
+0000011781 00000 n 
+0000026015 00000 n 
+0000026045 00000 n 
+0000024810 00000 n 
+0000011802 00000 n 
+0000015244 00000 n 
+0000026108 00000 n 
+0000026138 00000 n 
+0000024963 00000 n 
+0000015265 00000 n 
+0000018626 00000 n 
+0000026201 00000 n 
+0000026231 00000 n 
+0000025116 00000 n 
+0000018647 00000 n 
+0000020930 00000 n 
+0000026294 00000 n 
+0000026324 00000 n 
+0000025269 00000 n 
+0000020951 00000 n 
+0000024026 00000 n 
+0000026387 00000 n 
+0000026417 00000 n 
+0000028177 00000 n 
+0000033091 00000 n 
+0000043829 00000 n 
+0000044897 00000 n 
+0000027382 00000 n 
+0000046427 00000 n 
+trailer
+<< /Size 64 /Root 1 0 R /Info 2 0 R
+/ID [<37B60029D3ECF8A53ADD9AB9E7210E27><37B60029D3ECF8A53ADD9AB9E7210E27>]
+>>
+startxref
+48093
+%%EOF

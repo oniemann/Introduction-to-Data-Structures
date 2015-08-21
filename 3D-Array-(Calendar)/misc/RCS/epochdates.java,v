@@ -1,0 +1,1894 @@
+head	1.93;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.93
+date	2013.03.28.22.49.06;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2013.03.28.22.48.33;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2013.03.28.22.47.46;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2013.03.28.22.42.35;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2013.03.28.22.39.06;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2013.03.28.22.38.44;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2013.03.28.22.38.04;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2013.03.28.22.34.55;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2013.03.28.22.31.50;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2013.03.28.22.27.53;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2013.03.28.22.27.06;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2013.03.28.22.26.51;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2013.03.28.22.22.26;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2013.03.28.22.19.33;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2013.03.28.22.07.03;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2013.03.28.21.55.55;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2013.03.28.21.55.08;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2013.03.28.21.52.50;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2013.03.28.21.51.46;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2013.03.28.21.50.36;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2013.03.28.21.50.24;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2013.03.28.21.50.03;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2013.03.28.21.49.56;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2013.03.28.21.49.02;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2013.03.28.21.48.46;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2013.03.28.21.48.32;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2013.03.28.21.48.05;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2013.03.28.21.47.26;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2013.03.28.21.47.16;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2013.03.28.21.46.40;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2013.03.28.21.46.01;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2013.03.28.21.37.03;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2013.03.28.21.35.52;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2013.03.28.21.35.24;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2013.03.28.21.35.07;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2013.03.28.21.24.26;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2013.03.28.04.55.58;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2013.03.28.04.55.22;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2013.03.28.04.54.52;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2013.03.28.04.52.06;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2013.03.28.04.50.40;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2013.03.28.04.50.23;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2013.03.28.04.50.12;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2013.03.28.04.39.55;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2013.03.27.05.05.19;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2013.03.27.05.05.05;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2013.03.27.05.04.21;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2013.03.27.05.04.05;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2013.03.27.05.03.22;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2013.03.27.04.58.30;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2013.03.27.04.56.15;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2013.03.27.04.56.02;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2013.03.27.04.55.27;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2013.03.27.04.55.11;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2013.03.27.04.54.58;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.03.27.04.54.09;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.03.27.04.53.49;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.03.27.04.52.54;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2013.03.27.04.52.21;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2013.03.27.04.48.49;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.03.27.04.48.21;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.03.27.04.48.05;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.03.27.04.47.40;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.03.27.04.46.14;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.03.27.04.45.00;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.03.27.04.44.34;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.03.27.04.43.49;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.03.27.04.38.28;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.03.27.04.37.22;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.27.04.36.45;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.03.27.04.35.59;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.03.27.04.34.44;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.03.27.04.33.40;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.03.27.04.33.20;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.03.27.04.32.38;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.03.27.04.30.14;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.03.27.04.30.08;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.03.27.04.28.18;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.03.27.04.25.59;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.03.27.04.24.38;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.03.27.04.23.30;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.03.27.04.22.50;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.27.04.22.33;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.27.04.19.52;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.27.04.19.43;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.26.03.43.18;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.26.03.34.44;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.26.03.31.46;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.26.03.29.50;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.26.03.26.22;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.26.03.25.41;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.26.03.21.23;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2011.08.19.00.54.22;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.93
+log
+@-
+@
+text
+@// $Id: epochdates.java,v 1.92 2013-03-28 15:48:33-07 - - $
+//
+// Prints out some dates and times.
+// Illustrates the use of a date formatter.
+//
+
+import java.text.*;
+import java.util.*;
+import static java.lang.Math.*;
+import static java.lang.System.*;
+
+class epochdates {
+   static final GregorianCalendar CHANGE_DATE
+               = new GregorianCalendar (1752, Calendar.SEPTEMBER, 14);
+   static final double BIG_BANG = -13.798e9; //years
+   static final double RED_GIANT = 5e9; //years
+   static final double YEAR_SEC = 365.2422 * 24 * 60 * 60;
+
+   static long make_calendar (int year, int month, int day) {
+      GregorianCalendar cal = new GregorianCalendar(0,0,0,0,0,0);
+      cal.setGregorianChange (CHANGE_DATE.getTime());
+      if (year > 0) {
+         cal.set (Calendar.ERA, GregorianCalendar.AD);
+         cal.set (year, month, day);
+      }else if (year < 0) {
+         cal.set (Calendar.ERA, GregorianCalendar.BC);
+         cal.set (-year, month, day);
+      }else {
+         throw new IllegalArgumentException ("year == 0");
+      }
+      return cal.getTimeInMillis();
+   }
+
+   static long[] times = {
+      Long.MIN_VALUE,
+      make_calendar (-1178, Calendar.APRIL,    16),
+      make_calendar ( -753, Calendar.APRIL,    21),
+      make_calendar (    1, Calendar.JANUARY,   1),
+      make_calendar ( 1066, Calendar.OCTOBER,  14),
+      Integer.MIN_VALUE * 1000L,
+      0L,
+      currentTimeMillis(),
+      Integer.MAX_VALUE * 1000L,
+      make_calendar ( 9999, Calendar.DECEMBER, 31),
+      Long.MAX_VALUE,
+   };
+
+
+   public static void main (String[] args) {
+      TimeZone gmt = new SimpleTimeZone (0, "GMT");
+      Calendar cal = new GregorianCalendar ();
+      out.printf ("%,24.0f = %-19s%,16.0f BCE%n", BIG_BANG * YEAR_SEC,
+                  "Big Bang", BIG_BANG);
+      for (long time : times) {
+         cal.setTimeInMillis (time);
+         cal.setTimeZone (gmt);
+         String date = String.format ("%1$tA, %1$tB %1$te,", cal);
+         out.printf ("%,24.0f = %-24s", time / 1e3, date);
+         int year = cal.get (Calendar.YEAR);
+         out.printf (abs (year) <= 9999 ? "%11d" : "%,11d", year);
+         out.printf (" %s", cal.get (Calendar.ERA)
+                     == GregorianCalendar.AD ? "CE" : "BCE");
+         if (time >= Integer.MIN_VALUE * 1000L &&
+             time <= Integer.MAX_VALUE * 1000L) {
+            out.printf (" %1$tT %1$TZ", cal);
+         }
+         out.printf ("%n");
+      }
+      out.printf ("%,24.0f = %-19s%,16.0f CE%n", RED_GIANT * YEAR_SEC,
+                  "Sun is Red Giant", RED_GIANT);
+   }
+
+}
+
+//TEST// ./epochdates >epochdates.out 2>&1
+//TEST// mkpspdf epochdates.ps epochdates.java* epochdates.out
+
+@
+
+
+1.92
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.91 2013-03-28 15:47:46-07 - - $
+d70 1
+a70 1
+                  "Sun becomes Red Giant", RED_GIANT);
+@
+
+
+1.91
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.90 2013-03-28 15:42:35-07 - - $
+d52 2
+a53 2
+      out.printf ("%,24.0f = %-19s%,16.0f BCE%n",
+                  BIG_BANG * YEAR_SEC, "Big Bang", BIG_BANG);
+d69 2
+a70 2
+      out.printf ("%,24.0f = %-19s%,16.0f CE%n",
+                  RED_GIANT * YEAR_SEC, "Red Giant", RED_GIANT);
+@
+
+
+1.90
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.89 2013-03-28 15:39:06-07 - - $
+d16 1
+d51 1
+a53 1
+      Calendar cal = new GregorianCalendar ();
+d69 2
+@
+
+
+1.89
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.88 2013-03-28 15:38:44-07 - - $
+d47 1
+@
+
+
+1.88
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.87 2013-03-28 15:38:04-07 - - $
+d63 1
+a63 1
+            out.printf (" %1$tT %1$TZ%n", cal);
+@
+
+
+1.87
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.86 2013-03-28 15:34:55-07 - - $
+d61 2
+a62 2
+         if (time >= Integer.MIN_VALUE * 1000 &&
+             time <= Integer.MAX_VALUE * 1000) {
+@
+
+
+1.86
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.85 2013-03-28 15:31:50-07 - - $
+d61 5
+a65 1
+         out.printf (" %1$TT %1$TZ%n", cal);
+@
+
+
+1.85
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.84 2013-03-28 15:27:53-07 - - $
+d55 1
+a55 1
+         String date = String.format ("%1$tA, %1$tB %1$te,", time);
+@
+
+
+1.84
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.83 2013-03-28 15:27:06-07 - - $
+d61 1
+a61 1
+         out.printf ("%1$TT %1$TZ%n", cal);
+@
+
+
+1.83
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.82 2013-03-28 15:26:51-07 - - $
+d59 1
+a59 1
+         out.printf (" %s%n", cal.get (Calendar.ERA)
+d61 1
+@
+
+
+1.82
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.81 2013-03-28 15:22:26-07 - - $
+a51 1
+      cal.setTimeZone (gmt);
+d54 1
+@
+
+
+1.81
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.80 2013-03-28 15:19:33-07 - - $
+d48 1
+a48 1
+      setProperty ("user.timezone", "GMT");
+d52 1
+@
+
+
+1.80
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.79 2013-03-28 15:07:03-07 - - $
+d48 1
+a48 1
+
+a51 1
+      cal.setTimeZone (new SimpleTimeZone (0, "GMT"));
+@
+
+
+1.79
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.78 2013-03-28 14:55:55-07 - - $
+d59 2
+a60 1
+         out.printf (" %s%n", cal.get (Calendar.ERA) == GregorianCalendar.AD ? "CE" : "BCE");
+@
+
+
+1.78
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.77 2013-03-28 14:55:08-07 - - $
+d52 1
+@
+
+
+1.77
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.76 2013-03-28 14:52:50-07 - - $
+a38 1
+      make_calendar ( 9999, Calendar.DECEMBER, 31),
+d43 1
+@
+
+
+1.76
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.75 2013-03-28 14:51:46-07 - - $
+d18 1
+a18 1
+   static long millisec_cal (int year, int month, int day) {
+d35 5
+a39 3
+      millisec_cal (-1178, Calendar.APRIL,   16),
+      millisec_cal ( -753, Calendar.APRIL,   21),
+      millisec_cal ( 1066, Calendar.OCTOBER, 14),
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.74 2013-03-28 14:50:36-07 - - $
+d47 1
+a47 1
+      out.printf ("%,28.3f = %-19s%,16.0f BCE%n",
+d53 1
+a53 1
+         out.printf ("%,28.3f = %-24s", time / 1e3, date);
+@
+
+
+1.74
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.73 2013-03-28 14:50:24-07 - - $
+d47 1
+a47 1
+      out.printf ("%,26.3f = %-19s%,16.0f BCE%n",
+d53 1
+a53 1
+         out.printf ("%,26.3f = %-24s", time / 1e3, date);
+@
+
+
+1.73
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.72 2013-03-28 14:50:03-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.3f = %-19s%,16.0f BCE%n",
+@
+
+
+1.72
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.71 2013-03-28 14:49:56-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.6e = %-19s%,16.0f BCE%n",
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.70 2013-03-28 14:49:02-07 - - $
+d48 1
+a48 1
+                  BIG_BANG * YEAR_MSEC, "Big Bang", BIG_BANG);
+@
+
+
+1.70
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.69 2013-03-28 14:48:46-07 - - $
+d16 1
+a16 1
+   static final double YEAR_MSEC = 365.2422 * 24 * 60 * 60 * 1000;
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.68 2013-03-28 14:48:32-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.6e = %-19s%,17.0f BCE%n",
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.67 2013-03-28 14:48:05-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.6e = %-20s%,16.0f BCE%n",
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.66 2013-03-28 14:47:26-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.6e = %-24s%,12.0f BCE%n",
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.65 2013-03-28 14:47:16-07 - - $
+d47 1
+a47 1
+      out.printf ("%26.6e = %-24s %,12.0f BCE=%n",
+@
+
+
+1.65
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.64 2013-03-28 14:46:40-07 - - $
+a46 1
+      out.printf ("%26s = %,.0f BC%n", "Big Bang", 13.798e9);
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.63 2013-03-28 14:46:01-07 - - $
+d48 1
+a48 1
+      out.printf ("%26.6e = %-24s %,11d BCE=%n",
+@
+
+
+1.63
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.62 2013-03-28 14:37:03-07 - - $
+d48 1
+a48 1
+      out.printf ("26.6e = %-24s %,11d BCE=%n",
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.61 2013-03-28 14:35:52-07 - - $
+d15 2
+a16 1
+   static final double BIG_BANG = -13.7965e9; //years
+d48 2
+a49 1
+      // Using printf and a GregorianCalendar to get the era.
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.60 2013-03-28 14:35:24-07 - - $
+d51 2
+a52 2
+         String date = String.format ("%1$tA, %1$tB %1$te", time);
+         out.printf ("%,26.3f = %-24s,", time / 1e3, date);
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.59 2013-03-28 14:35:07-07 - - $
+d52 1
+a52 1
+         out.printf ("%,26.3f = %-24s,", time / 1e3);
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.58 2013-03-28 14:24:26-07 - - $
+d9 1
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.57 2013-03-27 21:55:58-07 - - $
+a49 4
+         String year = String.format ("%,11d %-3s",
+                       cal.get (Calendar.YEAR),
+                       cal.get (Calendar.ERA) == GregorianCalendar.AD
+                                ? "CE" : "BCE");
+d51 4
+a54 2
+         out.printf ("%,26.3f = %17s, %-24s%n",
+                     time / 1e3, year, date);
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.56 2013-03-27 21:55:22-07 - - $
+d50 1
+a50 1
+         String year = String.format ("%,11d %s",
+d53 1
+a53 1
+                                ? "AD" : "BC");
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.54 2013/03/28 04:52:06 - - $
+a34 2
+      millisec_cal (   -1, Calendar.JANUARY,  1),
+      millisec_cal (    1, Calendar.JANUARY,  1),
+@
+
+
+1.55
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.54 2013-03-27 21:52:06-07 - - $
+d52 2
+a53 1
+         String year = String.format ("%11tY %s", cal,
+@
+
+
+1.54
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.53 2013-03-27 21:50:40-07 - - $
+d52 1
+a52 2
+         String year = String.format ("%,11d %s",
+                       cal.get (Calendar.YEAR),
+@
+
+
+1.53
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.52 2013-03-27 21:50:23-07 - - $
+a51 1
+         String era = cal.get (Calendar.ERA) == GregorianCalendar.AD ? "AD" : "BC";
+d53 3
+a55 1
+                       cal.get (Calendar.YEAR), era);
+@
+
+
+1.52
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.51 2013-03-27 21:50:12-07 - - $
+d52 1
+a52 1
+         String era = cal.get (Calendar.ERA) == Calendar.AD ? "AD" : "BC";
+@
+
+
+1.51
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.50 2013-03-27 21:39:55-07 - - $
+d54 1
+a54 1
+                       cal.get (Calendar.YEAR), era (cal));
+@
+
+
+1.50
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.49 2013-03-26 22:05:19-07 - - $
+d19 4
+a22 1
+      if (year < 0) {
+d26 1
+a26 1
+         cal.set (year, month, day);
+d35 2
+d52 1
+a60 8
+   static String era (Calendar cal) {
+      switch (cal.get (Calendar.ERA)) {
+         case GregorianCalendar.AD: return "AD";
+         case GregorianCalendar.BC: return "BC";
+         default: throw new IllegalArgumentException ();
+      }
+   }
+
+@
+
+
+1.49
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.48 2013-03-26 22:05:05-07 - - $
+d65 3
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.47 2013-03-26 22:04:21-07 - - $
+d42 1
+a42 1
+      out.printf ("%25s = %,.0f BC%n", "Big Bang", 13.798e9);
+d50 1
+a50 1
+         out.printf ("%,25.3f = %17s, %-24s%n",
+@
+
+
+1.47
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.46 2013-03-26 22:04:05-07 - - $
+d42 1
+a42 1
+      out.printf ("%22s = %,.0f BC%n", "Big Bang", 13.798e9);
+d50 1
+a50 1
+         out.printf ("%,22.0f = %17s, %-24s%n",
+@
+
+
+1.46
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.45 2013-03-26 22:03:22-07 - - $
+d42 1
+a42 1
+      out.printf ("%23s = %,.0f BC%n", "Big Bang", 13.798e9);
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.44 2013-03-26 21:58:30-07 - - $
+d42 1
+a42 1
+      out.printf ("%20s = %,.0f BC%n", "Big Bang", 13.798e9);
+d50 1
+a50 1
+         out.printf ("%,22.0f = %15s, %-24s%n",
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.40 2013-03-26 21:55:11-07 - - $
+d30 3
+a32 5
+      millisec_cal (-1178, Calendar.APRIL, 16),
+      millisec_cal (-753, Calendar.APRIL, 21),
+      millisec_cal (1066, Calendar.OCTOBER, 14),
+      -85889088000000L,
+      -28502208000000L,
+d48 4
+a51 5
+                     cal.get (Calendar.YEAR), era (cal));
+         String date = String.format ("%1$tA, %1$tB %1$te,", time);
+         String timeofday = String.format ("%1$tT %1$tZ", time);
+         out.printf ("%,22.0f = %15s %-24s%13s%n",
+                     time / 1e3, year, date, timeofday);
+@
+
+
+1.43
+log
+@-
+@
+text
+@d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-23s%13s%n",
+@
+
+
+1.42
+log
+@-
+@
+text
+@d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-22s%13s%n",
+@
+
+
+1.41
+log
+@-
+@
+text
+@d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-22s %13s%n",
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.36 2013-03-26 21:52:54-07 - - $
+d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-24s %13s%n",
+@
+
+
+1.39
+log
+@-
+@
+text
+@d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-22s %13s%n",
+@
+
+
+1.38
+log
+@-
+@
+text
+@d53 1
+a53 1
+         out.printf ("%,22.0f = %15s %-21s %13s%n",
+@
+
+
+1.37
+log
+@-
+@
+text
+@d44 1
+a44 1
+      out.printf ("%22s = %,.0f BC%n", "Big Bang", 13.798e9);
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.35 2013-03-26 21:52:21-07 - - $
+d44 1
+a44 1
+      out.printf ("%22s = %,.0f BC%n", "Big Bang", -13.7965e9);
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.34 2013-03-26 21:48:49-07 - - $
+d44 1
+a44 1
+      out.printf ("Big Bang         = %,.0f BC%n", -13.7965e9);
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.33 2013-03-26 21:48:21-07 - - $
+d14 1
+d44 1
+a44 1
+      out.printf ("Big Bang = %,.0f years ago%n", 13.7965e9);
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.23 2013-03-26 21:35:59-07 - - $
+d51 2
+a52 2
+         String timeofday = String.format ("%1$tT.%1$tL %1$tZ", time);
+         out.printf ("%,23.0f = %15s %-21s %13s%n",
+@
+
+
+1.32
+log
+@-
+@
+text
+@d48 1
+a48 1
+         String year = String.format ("%,12d %s",
+@
+
+
+1.31
+log
+@-
+@
+text
+@d52 1
+a52 1
+         out.printf ("%,23.0f = %15s %-25s %13s%n",
+@
+
+
+1.30
+log
+@-
+@
+text
+@d52 1
+a52 1
+         out.printf ("%,26.3f = %15s %24s %15s%n",
+@
+
+
+1.29
+log
+@-
+@
+text
+@d52 1
+a52 1
+         out.printf ("%,25.3f = %15s %-24s %15s%n",
+@
+
+
+1.28
+log
+@-
+@
+text
+@d52 1
+a52 1
+         out.printf ("%21.3f = %15s %-20s %15s%n",
+@
+
+
+1.27
+log
+@-
+@
+text
+@d52 1
+a52 1
+         out.printf ("%21.3f = %15s %-15s %15s%n",
+@
+
+
+1.26
+log
+@-
+@
+text
+@d48 6
+a53 4
+         int year = cal.get (Calendar.YEAR);
+         out.printf ("%21.3f =  %4$,d %3$s, %2$tA, %2$tB %2$te, "
+                   + "%2$tT.%2$tL %2$tZ%n",
+                     time / 1e3, time, era (cal), year);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d49 2
+a50 2
+         out.printf ("%21.3f = %2$tA, %2$tB %2$te, "
+                   + "%2$tT.%2$tL %2$tZ %4$,d %3$s%n",
+@
+
+
+1.24
+log
+@-
+@
+text
+@d49 2
+a50 2
+         out.printf ("%21.3f = %2$tA, %2$tB %2$te, %3$s "
+                   + "%2$tT.%2$tL %2$tZ %4$,d%n",
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.22 2013-03-26 21:34:44-07 - - $
+d49 1
+a49 1
+         out.printf ("%21.3f = %2$tA, %2$tB, %2$te %3$s "
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.21 2013-03-26 21:33:40-07 - - $
+a42 10
+      // Using a SimpleDateFormat object.
+      SimpleDateFormat fmt = new SimpleDateFormat
+                            ("EEEE, MMMM dd, yyyy GG, HH:mm:ss.SSS z");
+      for (long time : times) {
+         Date date = new Date (time);
+         out.printf ("%21.3f = %s%n", time / 1e3, fmt.format (date));
+      }
+
+      out.printf ("%n");
+
+d49 2
+a50 2
+         out.printf ("%21.3f = %2$tA, %2$tB, %2$te %4$,d %3$s "
+                   + "%2$tT.%2$tL %2$tZ%n",
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.20 2013-03-26 21:33:20-07 - - $
+d59 1
+a59 1
+         out.printf ("%21.3f = %2$-10tA %2$-9tB %2$2te %4$,d %3$-3s "
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.19 2013-03-26 21:32:38-07 - - $
+d59 1
+a59 1
+         out.printf ("%21.3f = %2$-10tA %2$-9tB %2$2te %4$d %3$-3s "
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.18 2013-03-26 21:30:14-07 - - $
+d59 1
+a59 1
+         out.printf ("%21.3f = %2$-10tA %2$-9tB %2$2te %2$10tY %3$-3s "
+d61 1
+a61 1
+                     time / 1e3, time, era (cal));
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.17 2013-03-26 21:30:08-07 - - $
+d58 3
+a60 2
+         out.printf ("%21.3f = %-10tA %<-9tB %<2te %<10tY %-3s "
+                   + "%2$tT.%<tL %<tZ%n",
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.16 2013-03-26 21:28:18-07 - - $
+d16 1
+a16 1
+      GregorianCalendar cal = new GregorianCalendar(0,0,0,0,0,0ZZ);
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.15 2013-03-26 21:25:59-07 - - $
+d16 1
+a16 1
+      GregorianCalendar cal = new GregorianCalendar();
+d20 1
+a20 1
+         cal.set (-year, month, day, 0, 0, 0);
+d22 1
+a22 1
+         cal.set (year, month, day, 0, 0, 0);
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.10 2013-03-26 21:19:52-07 - - $
+d29 3
+a31 2
+      millisec_cal (-753, 4, 21),
+      millisec_cal (1066, 10, 14),
+@
+
+
+1.14
+log
+@-
+@
+text
+@d18 6
+a23 2
+      if (year < 0) cal.set (Calendar.ERA, GregorianCalendar.BC);
+      cal.set (year, month, day);
+@
+
+
+1.13
+log
+@-
+@
+text
+@d16 1
+a16 1
+      GregorianCalendar cal = new GregorianCalendar(year, month, day);
+d19 1
+@
+
+
+1.12
+log
+@-
+@
+text
+@d16 1
+a16 1
+      GregorianCalendar cal = new GregorianCalendar();
+@
+
+
+1.11
+log
+@-
+@
+text
+@d13 1
+a13 1
+               = new GregorianCalendar (1752, SEPTEMBER, 14);
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.9 2013-03-26 21:19:43-07 - - $
+d17 1
+a17 1
+      cal.setGregorianChange (CHANGE_DATE);
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.8 2013-03-25 20:43:18-07 - - $
+d13 1
+a13 1
+               = new GregorianCalendar (1752, SEPTEMBER, 14)
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.7 2013-03-25 20:34:44-07 - - $
+d12 10
+d24 2
+a25 2
+      new GregorianCalendar(-753, 4, 21).getTimeInMillis(),
+      new GregorianCalendar(1066, 10, 14).getTimeInMillis(),
+d33 1
+a33 1
+};
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.6 2013-03-25 20:31:46-07 - - $
+d12 12
+a23 8
+   static long[] times = {Long.MIN_VALUE,
+                          -85889088000000L,
+                          -28502208000000L,
+                          Integer.MIN_VALUE * 1000L,
+                          0L,
+                          currentTimeMillis(),
+                          Integer.MAX_VALUE * 1000L,
+                          Long.MAX_VALUE};
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.1 2011-08-18 17:54:22-07 - - $
+d33 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d28 1
+a28 1
+         out.printf ("%,21.3f = %s%n", time / 1e3, fmt.format (date));
+d37 1
+a37 1
+         out.printf ("%,21.3f = %-10tA %<-9tB %<2te %<10tY %-3s "
+@
+
+
+1.4
+log
+@-
+@
+text
+@d37 1
+a37 1
+         out.printf ("%,21.3f = %-10tA %<-9tB %<2te %,<10tY %-3s "
+@
+
+
+1.3
+log
+@-
+@
+text
+@d37 1
+a37 1
+         out.printf ("%,21.3f = %-10tA %<-9tB %<2te %<10tY %-3s "
+@
+
+
+1.2
+log
+@-
+@
+text
+@d28 1
+a28 1
+         out.printf ("%'21.3f = %s%n", time / 1e3, fmt.format (date));
+d37 1
+a37 1
+         out.printf ("%'21.3f = %-10tA %<-9tB %<2te %<10tY %-3s "
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: epochdates.java,v 1.1 2009-12-16 21:10:36-08 - - $
+d28 1
+a28 1
+         out.printf ("%21.3f = %s%n", time / 1e3, fmt.format (date));
+d37 1
+a37 1
+         out.printf ("%21.3f = %-10tA %<-9tB %<2te %<10tY %-3s "
+@

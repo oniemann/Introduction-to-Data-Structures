@@ -1,0 +1,6 @@
+#!/bin/bash
+#$Id$
+
+make
+./jcaltest ${1} ${2} ${3} >jcal.out
+vi jcal.out
