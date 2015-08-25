@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting currenttime.java
+currenttime.java:
+     $Id: currenttime.java,v 1.6 2013-03-28 16:44:17-07 - - $
+javac -Xlint currenttime.java
+jar cfm currenttime Manifest currenttime.class
+chmod +x currenttime
+rm -f currenttime.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished currenttime.java

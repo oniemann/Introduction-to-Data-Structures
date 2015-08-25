@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting localeinfo.java
+localeinfo.java:
+     $Id: localeinfo.java,v 1.10 2013-03-28 16:42:51-07 - - $
+javac -Xlint localeinfo.java
+jar cfm localeinfo Manifest localeinfo$1.class localeinfo.class
+chmod +x localeinfo
+rm -f localeinfo$1.class localeinfo.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished localeinfo.java

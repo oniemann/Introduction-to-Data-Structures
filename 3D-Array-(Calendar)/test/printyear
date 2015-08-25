@@ -1,0 +1,6 @@
+#/!bin/bash
+#$Id$
+
+make
+./jcaltest 2015 > jcaltest.2015.out
+vi jcaltest.2015.out

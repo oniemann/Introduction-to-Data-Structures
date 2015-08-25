@@ -1,0 +1,443 @@
+import java.util.GregorianCalendar;
+import java.util.Locale;
+import static java.lang.System.*;
+import static java.util.Calendar.*; 
+
+class jcaltest{
+    public static void main(String[] args) {
+        //creates calendar object which will be manipulated
+        GregorianCalendar cal = new GregorianCalendar();
+        cal.setGregorianChange (CHANGE_DATE.getTime());
+        int calmonth = 0, calyear = 0;
+        Locale locale = null;
+        if(args.length > 0)
+            locale = set_language(args[0]);
+        
+        if(args.length == 0) {
+            locale = Locale.getDefault();
+            calmonth = cal.get(GregorianCalendar.MONTH);
+            calyear = cal.get(GregorianCalendar.YEAR);
+            cal.set (calyear, calmonth, 1);
+            int[][][] currentYear = make_year(calyear, cal);
+            print_month(currentYear, calmonth, calyear, locale, 1);
+        }
+
+        else if(args[0].charAt(0) == '-') {
+            try {
+                int testchar = Integer.parseInt(args[0]);
+                misclib.die("invalid option -- '5'\n" +
+                    "Usage: jcal [[month] year]\n"+
+                    "       jcal [-locale] [[month] year]");
+            }
+            catch(NumberFormatException nfe) {
+                    //misclib.die("not a valid locale");
+            }/*
+            catch(StringIndexOutofBoundsException nfe) {
+                    misclib.die("not a valid locale");                
+            }*/
+            StringBuilder flag1 = new StringBuilder();
+            flag1 = flag1.append(args[0].charAt(1));
+            String flag = flag1.append(args[0].charAt(2)).toString();
+
+            if (args.length == 3) {
+                locale = set_language(flag);
+                //checks to see if the input is valid
+                //calmonth = check_input(args, calmonth);
+                calmonth = Integer.parseInt(args[1])- 1;
+                calyear = Integer.parseInt(args[2]);
+                cal.set (calyear, calmonth, 1);
+                //creates/prints the calendar month in the desired year
+                int[][][] currentYear = make_year(calyear, cal);  
+                print_month(currentYear, calmonth, calyear, locale, 1);
+            }
+            else if (args.length == 2) {
+                locale = set_language(flag);
+                calyear = Integer.parseInt(args[1]);
+                //makes the calendar year and then prints it
+                calmonth = 0;
+                cal.set (calyear, calmonth, 1);
+                int[][][] currentYear = make_year(calyear, cal);
+                print_year(currentYear, calmonth, calyear, locale, 3);
+            }
+        }
+        //Non-international route
+        else {
+            //prints out the year long calendar
+            if (args.length == 1) {
+                //checks if the argument is a number
+                find_errors(args, 0);
+                calyear = Integer.parseInt(args[0]);
+                //makes the calendar year and then prints it
+                calmonth = 0;
+                cal.set (calyear, calmonth, 1);
+                int[][][] currentYear = make_year(calyear, cal);
+                print_year(currentYear, calmonth, calyear, locale, 3);
+            }
+            //prints out the month/year calendar
+            else if (args.length == 2) {
+                //checks to see if the input is valid
+                //calmonth = check_input(args, calmonth);
+                calmonth = Integer.parseInt(args[0])- 1;
+                calyear = Integer.parseInt(args[1]);
+                cal.set (calyear, calmonth, 1);
+                //creates/prints the calendar month in the desired year
+                int[][][] currentYear = make_year(calyear, cal);  
+                print_month(currentYear, calmonth, calyear, locale, 1);
+            }
+        }
+    }
+
+    //place for all potential errors
+    static void find_errors(String[] args, int errorno) {
+        switch (errorno) {
+            case 0:
+                int calyear = 0;
+                try {
+                    calyear = Integer.parseInt (args[0]);
+                }catch (NumberFormatException error) {
+                    String argument = args[0];
+                    misclib.die("not a valid year " + (String)argument);
+                }
+                //checks to see that 0 < year < 9999 and presents an error
+                //if out of bounds
+                if(calyear < 1 || calyear > 9999){
+                    misclib.die("year `" + (int)calyear
+                               + "' not in range 1..9999");
+                }
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            default:
+                break;
+        }
+    }
+    //determines the calendar language
+    static Locale set_language(String args) {     
+        Locale[] locales = Locale.getAvailableLocales();
+        Locale locale = null;
+
+        for(Locale options : locales) {
+            String optionsID = options.toLanguageTag();
+            if(args.equalsIgnoreCase(optionsID)) {
+                locale = new Locale(args);
+                break;
+            }
+        }
+        if(locale == null)
+            locale = Locale.getDefault();
+
+        return locale;
+    }
+
+    static String get_month(int month, Locale locale) {
+        GregorianCalendar cal = new GregorianCalendar(locale);
+        cal.set(GregorianCalendar.MONTH, month);
+
+        String monthname = String.format (locale, "%tB", cal);
+
+        return monthname;
+    }
+    static void get_days(Locale locale, int iterations) {
+        //loops through iterations times to get three in row for year
+        for (int i = 0; i < iterations; ++i) {
+            GregorianCalendar cal = new GregorianCalendar (locale);
+            cal.set (MONTH, JANUARY);
+            cal.set (DAY_OF_MONTH, 1);
+            cal.add (DAY_OF_MONTH, (8 - cal.get (DAY_OF_WEEK)) % 7);
+            do {
+                String dayname = String.format (locale, "%tA", cal);
+                if(cal.get(DAY_OF_WEEK) != SUNDAY)
+                    out.printf (locale, "%3s", prefix(dayname,2));
+                else
+                    out.printf(locale, "%2s", prefix(dayname,2));
+            
+                cal.add (DAY_OF_MONTH, 1);
+            }while (cal.get (DAY_OF_WEEK) != SUNDAY);
+            //space between the 7 weekday names
+            if(i == 2)
+                out.printf("");
+            else
+                out.printf("   ");
+        }
+    }
+
+    //accepts a month and a year as arguments and returns a data
+    //structure representing a month which can easily be printed.
+    static int[][] make_month(int month, int year, GregorianCalendar cal) {
+        int[][] currentMonth = new int[WEEKS_IN_MONTH][DAYS_IN_WEEK];
+        int week = 0;
+
+        while (month == cal.get(GregorianCalendar.MONTH)) {
+            int dayofweek = 0;
+            while (dayofweek < 6) {
+                //finds the day part of the date and assigns it to a
+                //2d array [week#][dayofweek]
+                int calday = cal.get (GregorianCalendar.DAY_OF_MONTH);
+                dayofweek = cal.get (GregorianCalendar.DAY_OF_WEEK) - 1;
+                currentMonth[week][dayofweek] = calday;
+                
+                //fastforwards a day into the future
+                cal.add (GregorianCalendar.DAY_OF_MONTH, 1);
+
+                if(month != cal.get(GregorianCalendar.MONTH))
+                    break;
+            }
+            //when the dayofweek indice fills, increments the week
+            //indice by one
+            week++;
+        }
+        return currentMonth;
+    }
+
+    //creates a 3d array which stores the months and their corresponding
+    //days
+    static int[][][] make_year(int calyear, GregorianCalendar cal){
+        int[][][] currentYear =
+                       new int[12][WEEKS_IN_MONTH][DAYS_IN_WEEK];
+        //utilizes make_month to fill up a 3rd dimension containing
+        //12 indices
+        for(int month = 0; month < 12; month++){
+            currentYear[month] = make_month(month, calyear, cal);
+        }
+
+        return currentYear;
+    }
+    //prints out the days of a given week and month
+    static boolean print_week(int[][][] currentYear, int month, int week, int iterations) {
+        if(iterations == 1) {
+            for(int day = 0; day < DAYS_IN_WEEK; day++) {
+                    if(week == 0 && currentYear[month][week][day] == 0)
+                        out.printf(day == 0 ? "  " : "   ");
+                    else {
+                        end_of_month(currentYear, month, week, day, iterations);
+                    }
+            }
+            out.printf("\n");
+        }
+        else if(iterations == 3){
+            //put in the conditionals for year boundaries
+            if(week > 0 && group == 2 && currentYear[month][week][day] == 0) {
+                out.printf("\n");
+                return true;
+            }
+
+
+        }
+    }
+    static void print_month(int[][][] currentYear, int month, int year, Locale locale, int iterations){
+        fit_title(month, year, 1, locale);
+        get_days(locale, iterations);
+        out.println("");
+
+        for(int week = 0; week < WEEKS_IN_MONTH; week++)
+            print_week(currentYear, month, week, iterations);
+    }
+
+    static void print_year(int[][][] currentYear, int month, int year, Locale locale, int iterations){
+        fit_year(year);
+        int thismonth = month;
+        //loops through the groups of three months
+        for(int group = 0; group < MONTHS_IN_YEAR / 3; group++) {
+            fit_title(thismonth, year, iterations, locale); 
+            get_days(locale, iterations);
+            //jumps to next line for days of the week
+            out.printf("\n");
+            //loops through the weeks of the 3 chosen months
+            for(int weekno = 0; weekno < WEEKS_IN_MONTH;  weekno++){
+                boolean en = false;
+                //prints a line of a given week of three months
+                month = 0;
+                while(month < MONTHS_IN_YEAR / 4){ 
+                    print_week(currentYear, thismonth, weekno, iterations);
+                    //prints spaces only in between the months
+
+                    if(month != 2)
+                        out.printf("   ");
+                    thismonth++;
+                    month++;
+                }
+                //reverts back two months if all the weeks haven't been looped
+                if(weekno != WEEKS_IN_MONTH - 1)
+                    thismonth -= 3;
+                out.println("");
+            }
+        }
+    }
+////////////////////////////////////////////////////////////////////////
+    static void last_week(int[][][] eom, int month, int week, int day){
+        if (eom[month-1][week][day] == 0) {
+            if(month < 10) {
+            int testsum = 0;
+            for(int z = 0; z < 3; z++) {
+                for(int y = 0; y < 7; y++) {
+                    if(eom[month - 1 + z][week][y] == 0)
+                        testsum++;
+                }
+            }
+            //out.printf("THE NUMBER IS [%d]", testsum);
+            if(testsum == 21)
+                out.printf("");
+            }   
+            else
+                out.printf(day == 0 ? "  " : "   ");
+        }
+        else if (day == 0)
+            out.printf("%2d",
+                eom[month-1][week][day]);
+        else
+            out.printf("% 2d",
+                eom[month-1][week][day]);
+    }
+
+
+    static boolean 
+        end_of_row(int[][][] eom, int month, int day, int k, int week){
+        boolean endOfMonth = false;
+        //look at current month
+            //if the month ahead has a Sunday equal to zero 
+            //if the day after the current is equal to zero
+        if (k == 0 && day < 6) {
+            if(eom[month-1][week][day + 1] == 0) {
+                if (eom[month][week][0] == 0){
+                    if (eom[month+1][week][0] == 0) {
+                        endOfMonth = true;
+                        last_week(eom, month, week, day);
+                        out.printf("TEST1\n");
+                    }
+                }
+            }
+        }
+        //if on 2nd month and not the last day of week, check both to
+        //see if first day of next month has zero value and that the 
+        //next day is 0
+        else if (k == 1 && day < 6) {
+            if(eom[month-1][week][day + 1] == 0) {
+                if(eom[month][week][0] == 0) {
+                    endOfMonth = true;
+                    last_week(eom, month, week, day);
+                    out.printf("TEST2\n");
+                }
+            }
+        }
+        //if on third month, just check to see if the next day is blank
+        else if (k == 2 && day < 6) {
+            if(eom[month-1][week][day + 1] == 0) {
+                endOfMonth = true;
+                last_week(cY, month, week, day);
+                out.printf("TEST3\n");
+            }
+        }
+
+        return endOfMonth;
+    }
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+    static void fit_title(int month, int year, int iterations, Locale locale) {
+        int sum, bSpaces;
+        int extraSpace = 0;
+        //out.println("The name of this month is: " + name);
+        int yearlength = String.valueOf(year).length();
+        sum = (DAYS_IN_WEEK * 3 - 1);
+
+        //this case centers "month year" on the calendar
+        if(iterations == 1) {
+            String name = get_month(month, locale);
+            bSpaces = (sum - name.length() - yearlength) / 2;
+            int i = 0;
+            while (i < bSpaces) {
+                out.print(" ");
+                i++;
+            }
+            out.print(name + " " + year);
+            int k = 0;
+
+            if(name.length() % 2 == 0)
+                extraSpace = -1;
+            else
+                extraSpace = 0;
+
+            while(k < bSpaces + extraSpace) {
+                out.print(" ");
+                k++;
+            }
+            out.println("");
+        }
+
+        //for this case, need to print the title of three
+        //months with equal buffer space for each
+
+        else if(iterations == 3) {
+                int j = 0;
+
+                while(j < iterations) {
+                    String name = get_month(month + j, locale);
+                    bSpaces = (sum - name.length() + 1) / 2;
+                    int i = 0;
+                    int k = 0;
+                    while(i < bSpaces) {
+                        out.print(" ");
+                        i++;
+                    }
+
+                    out.printf(name);
+                    if(name.length() % 2 == 0)
+                        extraSpace = 0;
+                    else
+                        extraSpace = -1;
+
+                    while(k < bSpaces + extraSpace) {
+                        out.print(" ");
+                        k++;
+                    }
+                    if(j!= 2)
+                        out.print("   ");
+                    j++;
+                }
+            out.printf("\n");
+        }
+    }
+
+    static void fit_year(int year) {
+        int bSpace = (66 - String.valueOf(year).length()) / 2;
+        for(int n = 0; n < bSpace; n++)
+            out.print(" ");
+        if(String.valueOf(year).length() % 2 != 0) {
+            bSpace += 1;
+        }
+        out.printf("%d", year);
+        for (int n = 0; n < (bSpace); n++)
+            out.print(" ");
+        out.printf("\n\n");
+    }
+
+    static void end_of_month(int[][][] eom, int month, int week, int day, int iterations) {
+        if (eom[month][week][day] == 0){
+            if(iterations == 1)
+                out.printf("");
+            else if (iterations == 3)
+                out.printf(day == 0 ? "  " : "   ");
+        }
+        else 
+            out.printf(day == 0 ? "%2d" : "%3d",
+                eom[month][week][day]);
+    }
+    
+    static String prefix (String string, int length) {
+        return length > string.length ()
+            ? string
+            : string.substring (0, length);
+    }
+
+    //sets the changeover from Julius to Gregorian Calendar
+    static final GregorianCalendar CHANGE_DATE 
+                    = new GregorianCalendar (1752, SEPTEMBER, 14);
+    static final int WEEKS_IN_MONTH = 6;
+    static final int DAYS_IN_WEEK = 7;
+    static final int MONTHS_IN_YEAR = 12;
+}

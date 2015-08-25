@@ -1,0 +1,905 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 38 24 574 768
+%%Title: epochdates.ps
+%%For: Wesley Mackey
+%%Creator: GNU enscript 1.6.4
+%%CreationDate: Fri Jan  2 18:34:12 2015
+%%Orientation: Portrait
+%%Pages: (atend)
+%%DocumentMedia: Letter 612 792 0 () ()
+%%DocumentNeededResources: (atend)
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset Enscript-Prolog 1.6 4
+%
+% Procedures.
+%
+
+/_S {	% save current state
+  /_s save def
+} def
+/_R {	% restore from saved state
+  _s restore
+} def
+
+/S {	% showpage protecting gstate
+  gsave
+  showpage
+  grestore
+} bind def
+
+/MF {	% fontname newfontname -> -	make a new encoded font
+  /newfontname exch def
+  /fontname exch def
+
+  /fontdict fontname findfont def
+  /newfont fontdict maxlength dict def
+
+  fontdict {
+    exch
+    dup /FID eq {
+      % skip FID pair
+      pop pop
+    } {
+      % copy to the new font dictionary
+      exch newfont 3 1 roll put
+    } ifelse
+  } forall
+
+  newfont /FontName newfontname put
+
+  % insert only valid encoding vectors
+  encoding_vector length 256 eq {
+    newfont /Encoding encoding_vector put
+  } if
+
+  newfontname newfont definefont pop
+} def
+
+/MF_PS { % fontname newfontname -> -	make a new font preserving its enc
+  /newfontname exch def
+  /fontname exch def
+
+  /fontdict fontname findfont def
+  /newfont fontdict maxlength dict def
+
+  fontdict {
+    exch
+    dup /FID eq {
+      % skip FID pair
+      pop pop
+    } {
+      % copy to the new font dictionary
+      exch newfont 3 1 roll put
+    } ifelse
+  } forall
+
+  newfont /FontName newfontname put
+
+  newfontname newfont definefont pop
+} def
+
+/SF { % fontname width height -> -	set a new font
+  /height exch def
+  /width exch def
+
+  findfont
+  [width 0 0 height 0 0] makefont setfont
+} def
+
+/SUF { % fontname width height -> -	set a new user font
+  /height exch def
+  /width exch def
+
+  /F-gs-user-font MF
+  /F-gs-user-font width height SF
+} def
+
+/SUF_PS { % fontname width height -> -	set a new user font preserving its enc
+  /height exch def
+  /width exch def
+
+  /F-gs-user-font MF_PS
+  /F-gs-user-font width height SF
+} def
+
+/M {moveto} bind def
+/s {show} bind def
+
+/Box {	% x y w h -> -			define box path
+  /d_h exch def /d_w exch def /d_y exch def /d_x exch def
+  d_x d_y  moveto
+  d_w 0 rlineto
+  0 d_h rlineto
+  d_w neg 0 rlineto
+  closepath
+} def
+
+/bgs {	% x y height blskip gray str -> -	show string with bg color
+  /str exch def
+  /gray exch def
+  /blskip exch def
+  /height exch def
+  /y exch def
+  /x exch def
+
+  gsave
+    x y blskip sub str stringwidth pop height Box
+    gray setgray
+    fill
+  grestore
+  x y M str s
+} def
+
+/bgcs { % x y height blskip red green blue str -> -  show string with bg color
+  /str exch def
+  /blue exch def
+  /green exch def
+  /red exch def
+  /blskip exch def
+  /height exch def
+  /y exch def
+  /x exch def
+
+  gsave
+    x y blskip sub str stringwidth pop height Box
+    red green blue setrgbcolor
+    fill
+  grestore
+  x y M str s
+} def
+
+% Highlight bars.
+/highlight_bars {	% nlines lineheight output_y_margin gray -> -
+  gsave
+    setgray
+    /ymarg exch def
+    /lineheight exch def
+    /nlines exch def
+
+    % This 2 is just a magic number to sync highlight lines to text.
+    0 d_header_y ymarg sub 2 sub translate
+
+    /cw d_output_w cols div def
+    /nrows d_output_h ymarg 2 mul sub lineheight div cvi def
+
+    % for each column
+    0 1 cols 1 sub {
+      cw mul /xp exch def
+
+      % for each rows
+      0 1 nrows 1 sub {
+        /rn exch def
+        rn lineheight mul neg /yp exch def
+        rn nlines idiv 2 mod 0 eq {
+	  % Draw highlight bar.  4 is just a magic indentation.
+	  xp 4 add yp cw 8 sub lineheight neg Box fill
+	} if
+      } for
+    } for
+
+  grestore
+} def
+
+% Line highlight bar.
+/line_highlight {	% x y width height gray -> -
+  gsave
+    /gray exch def
+    Box gray setgray fill
+  grestore
+} def
+
+% Column separator lines.
+/column_lines {
+  gsave
+    .1 setlinewidth
+    0 d_footer_h translate
+    /cw d_output_w cols div def
+    1 1 cols 1 sub {
+      cw mul 0 moveto
+      0 d_output_h rlineto stroke
+    } for
+  grestore
+} def
+
+% Column borders.
+/column_borders {
+  gsave
+    .1 setlinewidth
+    0 d_footer_h moveto
+    0 d_output_h rlineto
+    d_output_w 0 rlineto
+    0 d_output_h neg rlineto
+    closepath stroke
+  grestore
+} def
+
+% Do the actual underlay drawing
+/draw_underlay {
+  ul_style 0 eq {
+    ul_str true charpath stroke
+  } {
+    ul_str show
+  } ifelse
+} def
+
+% Underlay
+/underlay {	% - -> -
+  gsave
+    0 d_page_h translate
+    d_page_h neg d_page_w atan rotate
+
+    ul_gray setgray
+    ul_font setfont
+    /dw d_page_h dup mul d_page_w dup mul add sqrt def
+    ul_str stringwidth pop dw exch sub 2 div ul_h_ptsize -2 div moveto
+    draw_underlay
+  grestore
+} def
+
+/user_underlay {	% - -> -
+  gsave
+    ul_x ul_y translate
+    ul_angle rotate
+    ul_gray setgray
+    ul_font setfont
+    0 0 ul_h_ptsize 2 div sub moveto
+    draw_underlay
+  grestore
+} def
+
+% Page prefeed
+/page_prefeed {		% bool -> -
+  statusdict /prefeed known {
+    statusdict exch /prefeed exch put
+  } {
+    pop
+  } ifelse
+} def
+
+% Wrapped line markers
+/wrapped_line_mark {	% x y charwith charheight type -> -
+  /type exch def
+  /h exch def
+  /w exch def
+  /y exch def
+  /x exch def
+
+  type 2 eq {
+    % Black boxes (like TeX does)
+    gsave
+      0 setlinewidth
+      x w 4 div add y M
+      0 h rlineto w 2 div 0 rlineto 0 h neg rlineto
+      closepath fill
+    grestore
+  } {
+    type 3 eq {
+      % Small arrows
+      gsave
+        .2 setlinewidth
+        x w 2 div add y h 2 div add M
+        w 4 div 0 rlineto
+        x w 4 div add y lineto stroke
+
+        x w 4 div add w 8 div add y h 4 div add M
+        x w 4 div add y lineto
+	w 4 div h 8 div rlineto stroke
+      grestore
+    } {
+      % do nothing
+    } ifelse
+  } ifelse
+} def
+
+% EPSF import.
+
+/BeginEPSF {
+  /b4_Inc_state save def    		% Save state for cleanup
+  /dict_count countdictstack def	% Count objects on dict stack
+  /op_count count 1 sub def		% Count objects on operand stack
+  userdict begin
+  /showpage { } def
+  0 setgray 0 setlinecap
+  1 setlinewidth 0 setlinejoin
+  10 setmiterlimit [ ] 0 setdash newpath
+  /languagelevel where {
+    pop languagelevel
+    1 ne {
+      false setstrokeadjust false setoverprint
+    } if
+  } if
+} bind def
+
+/EndEPSF {
+  count op_count sub { pos } repeat	% Clean up stacks
+  countdictstack dict_count sub { end } repeat
+  b4_Inc_state restore
+} bind def
+
+% Check PostScript language level.
+/languagelevel where {
+  pop /gs_languagelevel languagelevel def
+} {
+  /gs_languagelevel 1 def
+} ifelse
+%%EndResource
+%%BeginResource: procset Enscript-Encoding-88591 1.6 4
+/encoding_vector [
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/space        	/exclam       	/quotedbl     	/numbersign   	
+/dollar       	/percent      	/ampersand    	/quoteright   	
+/parenleft    	/parenright   	/asterisk     	/plus         	
+/comma        	/hyphen       	/period       	/slash        	
+/zero         	/one          	/two          	/three        	
+/four         	/five         	/six          	/seven        	
+/eight        	/nine         	/colon        	/semicolon    	
+/less         	/equal        	/greater      	/question     	
+/at           	/A            	/B            	/C            	
+/D            	/E            	/F            	/G            	
+/H            	/I            	/J            	/K            	
+/L            	/M            	/N            	/O            	
+/P            	/Q            	/R            	/S            	
+/T            	/U            	/V            	/W            	
+/X            	/Y            	/Z            	/bracketleft  	
+/backslash    	/bracketright 	/asciicircum  	/underscore   	
+/quoteleft    	/a            	/b            	/c            	
+/d            	/e            	/f            	/g            	
+/h            	/i            	/j            	/k            	
+/l            	/m            	/n            	/o            	
+/p            	/q            	/r            	/s            	
+/t            	/u            	/v            	/w            	
+/x            	/y            	/z            	/braceleft    	
+/bar          	/braceright   	/tilde        	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/space        	/exclamdown   	/cent         	/sterling     	
+/currency     	/yen          	/brokenbar    	/section      	
+/dieresis     	/copyright    	/ordfeminine  	/guillemotleft	
+/logicalnot   	/hyphen       	/registered   	/macron       	
+/degree       	/plusminus    	/twosuperior  	/threesuperior	
+/acute        	/mu           	/paragraph    	/bullet       	
+/cedilla      	/onesuperior  	/ordmasculine 	/guillemotright	
+/onequarter   	/onehalf      	/threequarters	/questiondown 	
+/Agrave       	/Aacute       	/Acircumflex  	/Atilde       	
+/Adieresis    	/Aring        	/AE           	/Ccedilla     	
+/Egrave       	/Eacute       	/Ecircumflex  	/Edieresis    	
+/Igrave       	/Iacute       	/Icircumflex  	/Idieresis    	
+/Eth          	/Ntilde       	/Ograve       	/Oacute       	
+/Ocircumflex  	/Otilde       	/Odieresis    	/multiply     	
+/Oslash       	/Ugrave       	/Uacute       	/Ucircumflex  	
+/Udieresis    	/Yacute       	/Thorn        	/germandbls   	
+/agrave       	/aacute       	/acircumflex  	/atilde       	
+/adieresis    	/aring        	/ae           	/ccedilla     	
+/egrave       	/eacute       	/ecircumflex  	/edieresis    	
+/igrave       	/iacute       	/icircumflex  	/idieresis    	
+/eth          	/ntilde       	/ograve       	/oacute       	
+/ocircumflex  	/otilde       	/odieresis    	/divide       	
+/oslash       	/ugrave       	/uacute       	/ucircumflex  	
+/udieresis    	/yacute       	/thorn        	/ydieresis    	
+] def
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%IncludeResource: font Courier-Bold
+/HFpt_w 10 def
+/HFpt_h 10 def
+/Courier-Bold /HF-gs-font MF
+/HF /HF-gs-font findfont [HFpt_w 0 0 HFpt_h 0 0] makefont def
+/Courier-Bold /F-gs-font MF
+/F-gs-font 11 11 SF
+/#copies 1 def
+% Pagedevice definitions:
+gs_languagelevel 1 gt {
+  <<
+    /PageSize [612 792] 
+  >> setpagedevice
+} if
+%%BeginResource: procset Enscript-Header-enscript-mycolor 1.6 4
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Roman
+
+% Fonts.
+/Times-Bold /HeaderFont-Bold MF
+/HeaderDateF /HeaderFont-Bold findfont 12 scalefont def
+
+/Times-Roman /HeaderFont-Times MF
+/HeaderHDRF /HeaderFont-Times findfont 14 scalefont def
+
+/HeaderPageNumF /Helvetica-Bold findfont 28.8 scalefont def
+/HeaderPageCountF /Helvetica-Bold findfont 18 scalefont def
+
+/do_header {	% print enscript header
+  gsave
+    d_header_x d_header_y translate
+
+    /dhw d_header_w 4 sub def
+
+    /linecolor {0 0 0 setrgbcolor} bind def  % line color
+    /txcolor   {0 0 0 setrgbcolor} bind def  % text color
+    /fncolor   {0 0 0 setrgbcolor} bind def  % filename line color
+
+    .5 setlinewidth
+
+    % line across bottom of the header area
+    linecolor
+    0 0 moveto dhw 0 lineto
+
+    % side boxes
+    /sbw d_header_h 2 mul def	% side box width
+
+    % left side box
+    0 0 sbw d_header_h Box
+    linecolor
+    stroke
+
+    % date/time in left box
+    txcolor
+    HeaderDateF setfont
+    moddatestr dup stringwidth pop sbw exch sub 2 div
+    d_header_h 2 div 2 add moveto show
+    modtimestr dup stringwidth pop sbw exch sub 2 div
+    d_header_h 5 div moveto show
+
+    % right side box
+    dhw sbw sub 0 sbw d_header_h Box
+    linecolor
+    stroke
+
+    % get width of pagecount
+    HeaderPageCountF setfont
+    pagecountstr stringwidth pop
+
+    txcolor
+    HeaderPageNumF setfont
+    pagenumstr stringwidth pop add  % add to width of pagecount
+    sbw exch sub 2 div dhw sbw sub add
+    d_header_h .2 mul moveto
+
+    pagenumstr show
+
+    HeaderPageCountF setfont
+    pagecountstr show
+
+    % filename
+    fncolor
+    HeaderHDRF setfont
+    dhw fname stringwidth pop sub 2 div d_header_h 8 div moveto
+    fname show
+
+    % user supplied header string.
+    user_header_p {
+      /h d_header_h 8 div 5 mul def
+
+      % HACK around a bug in enscript 1.6.0:
+      % for some reason this is getting set to "(null)" and
+      %
+      user_header_center_str (\(null\)) eq {
+        /user_header_center_str () def
+      } if
+
+      % Implement strict enscript compatibility.
+      user_header_center_str () eq user_header_right_str () eq and {
+        dhw user_header_left_str stringwidth pop sub 2 div
+        h moveto user_header_left_str show
+      } {
+        sbw 5 add h moveto user_header_left_str show
+
+        dhw user_header_center_str stringwidth pop sub 2 div
+        h moveto user_header_center_str show
+
+	dhw sbw sub 5 sub user_header_right_str stringwidth pop
+	sub h moveto user_header_right_str show
+      } ifelse
+    } if
+
+  grestore
+} bind def
+%%EndResource
+/d_page_w 536 def
+/d_page_h 744 def
+/d_header_x 0 def
+/d_header_y 708 def
+/d_header_w 536 def
+/d_header_h 36 def
+/d_footer_x 0 def
+/d_footer_y 0 def
+/d_footer_w 536 def
+/d_footer_h 0 def
+/d_output_w 536 def
+/d_output_h 708 def
+/cols 1 def
+%%EndSetup
+%%Page: (1) 1
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (epochdates.java) def
+/fdir () def
+/ftail (epochdates.java) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (01/02/15) def
+/pagecountstr (/2) def
+/modtimestr (18:34:11) def
+/user_header_p true def
+/user_header_left_str ($cmps012b-wm/Assignments/asg1j-jcal-3darray/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(// $Id: epochdates.java,v 1.93 2013-03-28 15:49:06-07 - - $) s
+32.4 682 M (2:) s
+52.2 682 M
+(//) s
+32.4 670 M (3:) s
+52.2 670 M
+(// Prints out some dates and times.) s
+32.4 658 M (4:) s
+52.2 658 M
+(// Illustrates the use of a date formatter.) s
+32.4 646 M (5:) s
+52.2 646 M
+(//) s
+32.4 634 M (6:) s
+32.4 622 M (7:) s
+52.2 622 M
+(import java.text.*;) s
+32.4 610 M (8:) s
+52.2 610 M
+(import java.util.*;) s
+32.4 598 M (9:) s
+52.2 598 M
+(import static java.lang.Math.*;) s
+25.8 586 M (10:) s
+52.2 586 M
+(import static java.lang.System.*;) s
+25.8 574 M (11:) s
+25.8 562 M (12:) s
+52.2 562 M
+(class epochdates {) s
+25.8 550 M (13:) s
+52.2 550 M
+(   static final GregorianCalendar CHANGE_DATE) s
+25.8 538 M (14:) s
+52.2 538 M
+(               = new GregorianCalendar \(1752, Calendar.SEPTEMBER, 14\);) s
+25.8 526 M (15:) s
+52.2 526 M
+(   static final double BIG_BANG = -13.798e9; //years) s
+25.8 514 M (16:) s
+52.2 514 M
+(   static final double RED_GIANT = 5e9; //years) s
+25.8 502 M (17:) s
+52.2 502 M
+(   static final double YEAR_SEC = 365.2422 * 24 * 60 * 60;) s
+25.8 490 M (18:) s
+25.8 478 M (19:) s
+52.2 478 M
+(   static long make_calendar \(int year, int month, int day\) {) s
+25.8 466 M (20:) s
+52.2 466 M
+(      GregorianCalendar cal = new GregorianCalendar\(0,0,0,0,0,0\);) s
+25.8 454 M (21:) s
+52.2 454 M
+(      cal.setGregorianChange \(CHANGE_DATE.getTime\(\)\);) s
+25.8 442 M (22:) s
+52.2 442 M
+(      if \(year > 0\) {) s
+25.8 430 M (23:) s
+52.2 430 M
+(         cal.set \(Calendar.ERA, GregorianCalendar.AD\);) s
+25.8 418 M (24:) s
+52.2 418 M
+(         cal.set \(year, month, day\);) s
+25.8 406 M (25:) s
+52.2 406 M
+(      }else if \(year < 0\) {) s
+25.8 394 M (26:) s
+52.2 394 M
+(         cal.set \(Calendar.ERA, GregorianCalendar.BC\);) s
+25.8 382 M (27:) s
+52.2 382 M
+(         cal.set \(-year, month, day\);) s
+25.8 370 M (28:) s
+52.2 370 M
+(      }else {) s
+25.8 358 M (29:) s
+52.2 358 M
+(         throw new IllegalArgumentException \("year == 0"\);) s
+25.8 346 M (30:) s
+52.2 346 M
+(      }) s
+25.8 334 M (31:) s
+52.2 334 M
+(      return cal.getTimeInMillis\(\);) s
+25.8 322 M (32:) s
+52.2 322 M
+(   }) s
+25.8 310 M (33:) s
+25.8 298 M (34:) s
+52.2 298 M
+(   static long[] times = {) s
+25.8 286 M (35:) s
+52.2 286 M
+(      Long.MIN_VALUE,) s
+25.8 274 M (36:) s
+52.2 274 M
+(      make_calendar \(-1178, Calendar.APRIL,    16\),) s
+25.8 262 M (37:) s
+52.2 262 M
+(      make_calendar \( -753, Calendar.APRIL,    21\),) s
+25.8 250 M (38:) s
+52.2 250 M
+(      make_calendar \(    1, Calendar.JANUARY,   1\),) s
+25.8 238 M (39:) s
+52.2 238 M
+(      make_calendar \( 1066, Calendar.OCTOBER,  14\),) s
+25.8 226 M (40:) s
+52.2 226 M
+(      Integer.MIN_VALUE * 1000L,) s
+25.8 214 M (41:) s
+52.2 214 M
+(      0L,) s
+25.8 202 M (42:) s
+52.2 202 M
+(      currentTimeMillis\(\),) s
+25.8 190 M (43:) s
+52.2 190 M
+(      Integer.MAX_VALUE * 1000L,) s
+25.8 178 M (44:) s
+52.2 178 M
+(      make_calendar \( 9999, Calendar.DECEMBER, 31\),) s
+25.8 166 M (45:) s
+52.2 166 M
+(      Long.MAX_VALUE,) s
+25.8 154 M (46:) s
+52.2 154 M
+(   };) s
+25.8 142 M (47:) s
+_R
+S
+%%Page: (2) 2
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 2 def
+/fname (epochdates.java) def
+/fdir () def
+/ftail (epochdates.java) def
+% User defined strings:
+/pagenumstr (2) def
+/moddatestr (01/02/15) def
+/pagecountstr (/2) def
+/modtimestr (18:34:11) def
+/user_header_p true def
+/user_header_left_str ($cmps012b-wm/Assignments/asg1j-jcal-3darray/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+25.8 694 M (48:) s
+25.8 682 M (49:) s
+52.2 682 M
+(   public static void main \(String[] args\) {) s
+25.8 670 M (50:) s
+52.2 670 M
+(      TimeZone gmt = new SimpleTimeZone \(0, "GMT"\);) s
+25.8 658 M (51:) s
+52.2 658 M
+(      Calendar cal = new GregorianCalendar \(\);) s
+25.8 646 M (52:) s
+52.2 646 M
+(      out.printf \("%,24.0f = %-19s%,16.0f BCE%n", BIG_BANG * YEAR_SEC,) s
+25.8 634 M (53:) s
+52.2 634 M
+(                  "Big Bang", BIG_BANG\);) s
+25.8 622 M (54:) s
+52.2 622 M
+(      for \(long time : times\) {) s
+25.8 610 M (55:) s
+52.2 610 M
+(         cal.setTimeInMillis \(time\);) s
+25.8 598 M (56:) s
+52.2 598 M
+(         cal.setTimeZone \(gmt\);) s
+25.8 586 M (57:) s
+52.2 586 M
+(         String date = String.format \("%1$tA, %1$tB %1$te,", cal\);) s
+25.8 574 M (58:) s
+52.2 574 M
+(         out.printf \("%,24.0f = %-24s", time / 1e3, date\);) s
+25.8 562 M (59:) s
+52.2 562 M
+(         int year = cal.get \(Calendar.YEAR\);) s
+25.8 550 M (60:) s
+52.2 550 M
+(         out.printf \(abs \(year\) <= 9999 ? "%11d" : "%,11d", year\);) s
+25.8 538 M (61:) s
+52.2 538 M
+(         out.printf \(" %s", cal.get \(Calendar.ERA\)) s
+25.8 526 M (62:) s
+52.2 526 M
+(                     == GregorianCalendar.AD ? "CE" : "BCE"\);) s
+25.8 514 M (63:) s
+52.2 514 M
+(         if \(time >= Integer.MIN_VALUE * 1000L &&) s
+25.8 502 M (64:) s
+52.2 502 M
+(             time <= Integer.MAX_VALUE * 1000L\) {) s
+25.8 490 M (65:) s
+52.2 490 M
+(            out.printf \(" %1$tT %1$TZ", cal\);) s
+25.8 478 M (66:) s
+52.2 478 M
+(         }) s
+25.8 466 M (67:) s
+52.2 466 M
+(         out.printf \("%n"\);) s
+25.8 454 M (68:) s
+52.2 454 M
+(      }) s
+25.8 442 M (69:) s
+52.2 442 M
+(      out.printf \("%,24.0f = %-19s%,16.0f CE%n", RED_GIANT * YEAR_SEC,) s
+25.8 430 M (70:) s
+52.2 430 M
+(                  "Sun is Red Giant", RED_GIANT\);) s
+25.8 418 M (71:) s
+52.2 418 M
+(   }) s
+25.8 406 M (72:) s
+25.8 394 M (73:) s
+52.2 394 M
+(}) s
+25.8 382 M (74:) s
+25.8 370 M (75:) s
+52.2 370 M
+(//TEST// ./epochdates >epochdates.out 2>&1) s
+25.8 358 M (76:) s
+52.2 358 M
+(//TEST// mkpspdf epochdates.ps epochdates.java* epochdates.out) s
+25.8 346 M (77:) s
+_R
+S
+%%Page: (1) 3
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (epochdates.java.log) def
+/fdir () def
+/ftail (epochdates.java.log) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (01/02/15) def
+/pagecountstr (/1) def
+/modtimestr (18:34:12) def
+/user_header_p true def
+/user_header_left_str ($cmps012b-wm/Assignments/asg1j-jcal-3darray/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting epochdates.java) s
+32.4 682 M (2:) s
+52.2 682 M
+(epochdates.java:) s
+32.4 670 M (3:) s
+52.2 670 M
+(     $Id: epochdates.java,v 1.93 2013-03-28 15:49:06-07 - - $) s
+32.4 658 M (4:) s
+52.2 658 M
+(javac -Xlint epochdates.java) s
+32.4 646 M (5:) s
+52.2 646 M
+(jar cfm epochdates Manifest epochdates.class) s
+32.4 634 M (6:) s
+52.2 634 M
+(chmod +x epochdates) s
+32.4 622 M (7:) s
+52.2 622 M
+(rm -f epochdates.class) s
+32.4 610 M (8:) s
+52.2 610 M
+(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished epochdates.java) s
+_R
+S
+%%Page: (1) 4
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (epochdates.out) def
+/fdir () def
+/ftail (epochdates.out) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (01/02/15) def
+/pagecountstr (/1) def
+/modtimestr (18:34:12) def
+/user_header_p true def
+/user_header_left_str ($cmps012b-wm/Assignments/asg1j-jcal-3darray/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(-435,422,466,051,839,940 = Big Bang            -13,798,000,000 BCE) s
+32.4 682 M (2:) s
+52.2 682 M
+(  -9,223,372,036,854,776 = Sunday, December 2,     292,269,055 BCE) s
+32.4 670 M (3:) s
+52.2 670 M
+(         -99,301,564,800 = Wednesday, April 16,           1178 BCE) s
+32.4 658 M (4:) s
+52.2 658 M
+(         -85,889,088,000 = Monday, April 21,               753 BCE) s
+32.4 646 M (5:) s
+52.2 646 M
+(         -62,135,740,800 = Saturday, January 1,              1 CE) s
+32.4 634 M (6:) s
+52.2 634 M
+(         -28,502,208,000 = Saturday, October 14,          1066 CE) s
+32.4 622 M (7:) s
+52.2 622 M
+(          -2,147,483,648 = Friday, December 13,           1901 CE 20:45:) s
+5 610 M
+(52 GMT) s
+32.4 598 M (8:) s
+52.2 598 M
+(                       0 = Thursday, January 1,           1970 CE 00:00:) s
+5 586 M
+(00 GMT) s
+32.4 574 M (9:) s
+52.2 574 M
+(           1,420,252,452 = Saturday, January 3,           2015 CE 02:34:) s
+5 562 M
+(12 GMT) s
+25.8 550 M (10:) s
+52.2 550 M
+(           2,147,483,647 = Tuesday, January 19,           2038 CE 03:14:) s
+5 538 M
+(07 GMT) s
+25.8 526 M (11:) s
+52.2 526 M
+(         253,402,243,200 = Friday, December 31,           9999 CE) s
+25.8 514 M (12:) s
+52.2 514 M
+(   9,223,372,036,854,776 = Sunday, August 17,      292,278,994 CE) s
+25.8 502 M (13:) s
+52.2 502 M
+( 157,784,630,399,999,968 = Sun is Red Giant      5,000,000,000 CE) s
+_R
+S
+%%Trailer
+%%Pages: 4
+%%DocumentNeededResources: font Times-Roman Courier-Bold Times-Bold 
+%%EOF

@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting calconstants.java
+calconstants.java:
+     $Id: calconstants.java,v 1.3 2013-03-27 21:28:49-07 - - $
+javac -Xlint calconstants.java
+jar cfm calconstants Manifest calconstants.class
+chmod +x calconstants
+rm -f calconstants.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished calconstants.java

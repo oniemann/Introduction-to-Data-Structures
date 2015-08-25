@@ -1,0 +1,250 @@
+head	1.10;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.10
+date	2013.03.28.23.42.51;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.28.23.36.15;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.27.03.30.56;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.27.03.28.43;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.27.03.26.58;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.27.03.25.29;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.27.02.59.13;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.26.03.48.49;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.26.03.48.15;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2011.08.19.00.54.24;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@-
+@
+text
+@// $Id: localeinfo.java,v 1.9 2013-03-28 16:36:15-07 - - $
+//
+// NAME
+//    localeinfo - print all available Java locales
+//
+// DESCRIPTION
+//    Prints out all known locales and some information about them.
+//
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Locale;
+import static java.lang.System.*;
+
+class localeinfo {
+
+   static void printlocale (Locale locale) {
+      out.printf ("%s => %s [%s]%n", locale, locale.getDisplayName(),
+                  locale.getDisplayName (locale));
+   }
+
+   static Comparator<Locale> comparator = new Comparator<Locale>() {
+      public int compare (Locale obj1, Locale obj2) {
+         return obj1.toString().compareTo (obj2.toString());
+      }
+   };
+
+   public static void main (String[] args) {
+      boolean onelevel = args.length == 0;
+
+      out.printf ("The default locale is:%n");
+      printlocale (Locale.getDefault());
+
+      out.printf ("The available locales are:%n");
+      Locale[] locales = Locale.getAvailableLocales();
+      Arrays.sort (locales, comparator);
+      for (Locale locale : locales) {
+         if (onelevel && locale.toString().indexOf ("_") >= 0) continue;
+         printlocale (locale);
+      }
+   }
+
+}
+
+//TEST// ./localeinfo >localeinfo.out 2>&1
+//TEST// mkpspdf localeinfo.ps localeinfo.java* localeinfo.out
+
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: localeinfo.java,v 1.11 2013-03-27 20:46:13-07 - - $
+d44 4
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: localeinfo.java,v 1.7 2013-03-26 20:28:43-07 - - $
+d18 2
+a19 1
+      out.printf ("   %-9s => %s%n", locale, locale.getDisplayName());
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: localeinfo.java,v 1.3 2013-03-25 20:48:49-07 - - $
+d18 1
+a18 8
+      String language = locale.getDisplayLanguage();
+      String country = locale.getDisplayCountry();
+      String variant = locale.getDisplayVariant();
+      out.printf ("   %-9s => %s", locale, language);
+      if (country.length() != 0) out.printf (" (%s)", country);
+      if (variant.length() != 0) out.printf (" - %s", variant);
+      out.printf (" [%s]", locale.getDisplayName());
+      out.printf ("%n");
+@
+
+
+1.6
+log
+@-
+@
+text
+@d24 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d35 1
+a35 2
+      Locale[] locales = Locale.getAvailableLocales();
+      Arrays.sort (locales, comparator);
+d38 1
+d40 3
+a42 1
+      for (Locale locale : Locale.getAvailableLocales()) {
+@
+
+
+1.4
+log
+@-
+@
+text
+@d10 2
+a12 1
+import java.util.Arrays;
+d27 3
+a29 3
+   class locale_comparator implements Comparator<Locale> {
+      int compare (Locale o1, Locale o2) {
+         return o1.getDisplayName().compareTo (o2.getDisplayName);
+d31 1
+a31 4
+      boolean equals (Object obj) {
+         return obj instanceof Locale && compare (this, obj) == 0;
+      }
+   }
+d36 1
+a36 1
+      Arrays.sort (locales, new locale_comparator());
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: localeinfo.java,v 1.1 2011-08-18 17:54:24-07 - - $
+d26 9
+d38 1
+a38 1
+      Arrays.sort (locales);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d11 1
+a11 1
+import java.util.regex.*;
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: localeinfo.java,v 1.1 2009-12-16 21:10:38-08 - - $
+d29 1
+@

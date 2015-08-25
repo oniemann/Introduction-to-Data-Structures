@@ -1,0 +1,8 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting monthcal.java
+monthcal.java:
+     $Id: monthcal.java,v 1.4 2013-03-28 16:52:19-07 - - $
+javac -Xlint monthcal.java
+jar cfm monthcal Manifest monthcal.class
+chmod +x monthcal
+rm -f monthcal.class
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished monthcal.java

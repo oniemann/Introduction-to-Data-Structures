@@ -1,0 +1,5 @@
+#!/bin/bash
+#$Id$
+make all
+./jcal ${1} >jcal20009.out
+vi jcal20009.out
